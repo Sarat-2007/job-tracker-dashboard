@@ -1,459 +1,1850 @@
 {
   "stats": {
-    "total_jobs": 187,
-    "total_applied": 46,
-    "avg_ats": 88.5
+    "total_jobs": 188,
+    "total_applied": 47,
+    "avg_ats": 88.6,
+    "updated_at": "2026-08-27 14:24:33 IST"
   },
   "applications": [
     {
+      "job_id": "custom_teslaautopilot_autonomous_controls___embedded",
+      "company": "Tesla Autopilot",
+      "title": "Autonomous Controls & Embedded Firmware Intern",
+      "location": "Bangalore / Remote",
+      "portal": "Custom Direct",
+      "job_url": "https://careers.teslaautopilot.com/jobs/custom_teslaautopilot_autonomous_controls___embedded",
+      "track": "General Robotics/AI",
+      "jd_text": "Real-time C++ motion planning, ROS 2, CAN bus, Kalman filter state estimation, and microcontroller drivers.",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "mode": "CUSTOM_TAILORED",
+      "response": "Custom Tailored 1-Page Resume Generated",
+      "pdf": "resume_TeslaAutopilot_custom_teslaautopilot_autonomous_controls___embedded.pdf",
+      "applied_at": "2026-08-27 08:42:52",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Tesla Autopilot.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
+    },
+    {
+      "job_id": "blr_phonepe_data_eng_05",
       "company": "PhonePe",
       "title": "Data Engineer Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.phonepe.com/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "ETL pipelines, high-volume data stream ingestion, SQL optimization, data cleaning, and automated metrics computation.",
       "ats": 79.0,
       "status": "SUCCESS",
-      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf"
+      "mode": "CLOUD_STANDARD",
+      "response": "Career portal submission and PDF receipt logged for PhonePe",
+      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf",
+      "applied_at": "2026-08-27 06:36:34",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at PhonePe.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_razorpay_analytics_04",
       "company": "Razorpay",
       "title": "Quantitative & Analytics Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://razorpay.com/jobs",
       "track": "Data Science & Analytics",
+      "jd_text": "Time-series transaction modeling, statistical anomaly detection, data visualization in Python, and predictive algorithm benchmarking.",
       "ats": 79.0,
       "status": "SUCCESS",
-      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf"
+      "mode": "CLOUD_GREENHOUSE",
+      "response": "Direct Greenhouse cloud form payload dispatched for Razorpay",
+      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf",
+      "applied_at": "2026-08-27 06:36:31",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Razorpay.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_cred_bi_analyst_03",
       "company": "CRED",
       "title": "Business Intelligence (BI) Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Lever",
+      "job_url": "https://cred.club/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "Build high-throughput telemetry pipelines, automated data dashboards, Python automation scripts, and quantitative user behavior analytics.",
       "ats": 79.0,
       "status": "SUCCESS",
-      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+      "mode": "CLOUD_LEVER",
+      "response": "Direct Lever candidate profile dispatched for CRED",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf",
+      "applied_at": "2026-08-27 06:36:27",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at CRED.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_flipkart_data_science_02",
       "company": "Flipkart",
       "title": "Data Science Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.flipkartcareers.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Predictive analytics on time-series telemetry, feature engineering, Optuna/Bayesian hyperparameter optimization, machine learning modeling, and conformal uncertainty.",
       "ats": 79.0,
       "status": "SUCCESS",
-      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+      "mode": "CLOUD_STANDARD",
+      "response": "Career portal submission and PDF receipt logged for Flipkart",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf",
+      "applied_at": "2026-08-27 06:36:24",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Flipkart.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_swiggy_data_analyst_01",
       "company": "Swiggy",
       "title": "Data Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://careers.swiggy.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Exploratory Data Analysis (EDA) on delivery telemetry, SQL queries, Python (Pandas/NumPy), statistical modeling, and dashboard creation. High analytical aptitude required.",
       "ats": 79.0,
       "status": "SUCCESS",
-      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+      "mode": "CLOUD_GREENHOUSE",
+      "response": "Direct Greenhouse cloud form payload dispatched for Swiggy",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf",
+      "applied_at": "2026-08-27 06:36:21",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Swiggy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_ather_robotics_intern_11",
       "company": "Ather Energy",
       "title": "Robotics & Controls Engineer Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://www.atherenergy.com/careers",
       "track": "Robotics Software & Autonomy",
+      "jd_text": "Vehicle dynamics control loops (50 Hz), MATLAB/Simulink kinematics, CAN 2.0B bus integration, and real-time C++ algorithms.",
       "ats": 95.0,
       "status": "SUCCESS",
-      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_11.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Ather Energy Greenhouse gateway.",
+      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_11.pdf",
+      "applied_at": "2026-08-27 05:21:02",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Ather Energy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_swiggy_qa_automation_10",
       "company": "Swiggy",
       "title": "Software QA & Automation Testing Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://careers.swiggy.com",
       "track": "Core Software & SDE",
+      "jd_text": "PyTest test automation, API verification, regression testing suites, CI/CD automation, and performance profiling.",
       "ats": 88.7,
       "status": "SUCCESS",
-      "pdf": "resume_Swiggy_blr_swiggy_qa_automation_10.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Swiggy Greenhouse gateway.",
+      "pdf": "resume_Swiggy_blr_swiggy_qa_automation_10.pdf",
+      "applied_at": "2026-08-27 05:20:58",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Swiggy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_zerodha_systems_08",
       "company": "Zerodha (Rainmatter)",
       "title": "Junior C++ Systems Developer",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://zerodha.com/careers",
       "track": "Core Software & SDE",
+      "jd_text": "Low-latency C++ systems, POSIX network sockets, memory-efficient data structures, Linux multithreading, and automated testing.",
       "ats": 88.7,
       "status": "SUCCESS",
-      "pdf": "resume_ZerodhaRainmatter_blr_zerodha_systems_08.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Zerodha (Rainmatter) (SMTP credentials can be added in Settings).",
+      "pdf": "resume_ZerodhaRainmatter_blr_zerodha_systems_08.pdf",
+      "applied_at": "2026-08-27 05:20:55",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Zerodha (Rainmatter).",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_browserstack_python_07",
       "company": "BrowserStack",
       "title": "Python Developer Intern",
       "location": "Bangalore / Mumbai",
       "portal": "Standard",
+      "job_url": "https://www.browserstack.com/careers",
       "track": "Core Software & SDE",
+      "jd_text": "Python scripting, test automation frameworks, cloud device orchestration, API integrations, and Linux systems programming.",
       "ats": 88.7,
       "status": "SUCCESS",
-      "pdf": "resume_BrowserStack_blr_browserstack_python_07.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to BrowserStack (SMTP credentials can be added in Settings).",
+      "pdf": "resume_BrowserStack_blr_browserstack_python_07.pdf",
+      "applied_at": "2026-08-27 05:20:50",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at BrowserStack.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_postman_sde_intern_06",
       "company": "Postman",
       "title": "Software Development Engineer (SDE) Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://www.postman.com/company/careers",
       "track": "Core Software & SDE",
+      "jd_text": "Build scalable backend microservices, REST APIs, asynchronous network programming in Python/C++, and continuous integration testing.",
       "ats": 88.7,
       "status": "SUCCESS",
-      "pdf": "resume_Postman_blr_postman_sde_intern_06.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Postman Greenhouse gateway.",
+      "pdf": "resume_Postman_blr_postman_sde_intern_06.pdf",
+      "applied_at": "2026-08-27 05:20:47",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Postman.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_phonepe_data_eng_05",
       "company": "PhonePe",
       "title": "Data Engineer Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.phonepe.com/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "ETL pipelines, high-volume data stream ingestion, SQL optimization, data cleaning, and automated metrics computation.",
       "ats": 83.0,
       "status": "SUCCESS",
-      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to PhonePe (SMTP credentials can be added in Settings).",
+      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf",
+      "applied_at": "2026-08-27 05:20:43",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at PhonePe.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_razorpay_analytics_04",
       "company": "Razorpay",
       "title": "Quantitative & Analytics Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://razorpay.com/jobs",
       "track": "Data Science & Analytics",
+      "jd_text": "Time-series transaction modeling, statistical anomaly detection, data visualization in Python, and predictive algorithm benchmarking.",
       "ats": 83.0,
       "status": "SUCCESS",
-      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Razorpay Greenhouse gateway.",
+      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf",
+      "applied_at": "2026-08-27 05:20:39",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Razorpay.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_cred_bi_analyst_03",
       "company": "CRED",
       "title": "Business Intelligence (BI) Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Lever",
+      "job_url": "https://cred.club/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "Build high-throughput telemetry pipelines, automated data dashboards, Python automation scripts, and quantitative user behavior analytics.",
       "ats": 83.0,
       "status": "SUCCESS",
-      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to CRED Lever gateway.",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf",
+      "applied_at": "2026-08-27 05:20:35",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at CRED.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_flipkart_data_science_02",
       "company": "Flipkart",
       "title": "Data Science Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.flipkartcareers.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Predictive analytics on time-series telemetry, feature engineering, Optuna/Bayesian hyperparameter optimization, machine learning modeling, and conformal uncertainty.",
       "ats": 83.0,
       "status": "SUCCESS",
-      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Flipkart (SMTP credentials can be added in Settings).",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf",
+      "applied_at": "2026-08-27 05:20:30",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Flipkart.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_swiggy_data_analyst_01",
       "company": "Swiggy",
       "title": "Data Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://careers.swiggy.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Exploratory Data Analysis (EDA) on delivery telemetry, SQL queries, Python (Pandas/NumPy), statistical modeling, and dashboard creation. High analytical aptitude required.",
       "ats": 83.0,
       "status": "SUCCESS",
-      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Swiggy Greenhouse gateway.",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf",
+      "applied_at": "2026-08-27 05:20:27",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Swiggy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_cred_bi_analyst_03",
       "company": "CRED",
       "title": "Business Intelligence (BI) Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Lever",
+      "job_url": "https://cred.club/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "Build high-throughput telemetry pipelines, automated data dashboards, Python automation scripts, and quantitative user behavior analytics.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to CRED Lever gateway.",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf",
+      "applied_at": "2026-08-27 05:03:17",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at CRED.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_flipkart_data_science_02",
       "company": "Flipkart",
       "title": "Data Science Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.flipkartcareers.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Predictive analytics on time-series telemetry, feature engineering, Optuna/Bayesian hyperparameter optimization, machine learning modeling, and conformal uncertainty.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Flipkart (SMTP credentials can be added in Settings).",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf",
+      "applied_at": "2026-08-27 05:03:14",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Flipkart.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_swiggy_data_analyst_01",
       "company": "Swiggy",
       "title": "Data Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://careers.swiggy.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Exploratory Data Analysis (EDA) on delivery telemetry, SQL queries, Python (Pandas/NumPy), statistical modeling, and dashboard creation. High analytical aptitude required.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Swiggy Greenhouse gateway.",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf",
+      "applied_at": "2026-08-27 05:03:11",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Swiggy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_ather_robotics_intern_11",
       "company": "Ather Energy",
       "title": "Robotics & Controls Engineer Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://www.atherenergy.com/careers",
       "track": "Robotics Software & Autonomy",
+      "jd_text": "Vehicle dynamics control loops (50 Hz), MATLAB/Simulink kinematics, CAN 2.0B bus integration, and real-time C++ algorithms.",
       "ats": 88.0,
       "status": "SUCCESS",
-      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_11.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Ather Energy Greenhouse gateway.",
+      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_11.pdf",
+      "applied_at": "2026-08-27 04:50:23",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Ather Energy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_swiggy_qa_automation_10",
       "company": "Swiggy",
       "title": "Software QA & Automation Testing Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://careers.swiggy.com",
       "track": "Core Software & SDE",
+      "jd_text": "PyTest test automation, API verification, regression testing suites, CI/CD automation, and performance profiling.",
       "ats": 89.7,
       "status": "SUCCESS",
-      "pdf": "resume_Swiggy_blr_swiggy_qa_automation_10.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Swiggy Greenhouse gateway.",
+      "pdf": "resume_Swiggy_blr_swiggy_qa_automation_10.pdf",
+      "applied_at": "2026-08-27 04:50:20",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Swiggy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_zerodha_systems_08",
       "company": "Zerodha (Rainmatter)",
       "title": "Junior C++ Systems Developer",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://zerodha.com/careers",
       "track": "Core Software & SDE",
+      "jd_text": "Low-latency C++ systems, POSIX network sockets, memory-efficient data structures, Linux multithreading, and automated testing.",
       "ats": 89.7,
       "status": "SUCCESS",
-      "pdf": "resume_ZerodhaRainmatter_blr_zerodha_systems_08.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Zerodha (Rainmatter) (SMTP credentials can be added in Settings).",
+      "pdf": "resume_ZerodhaRainmatter_blr_zerodha_systems_08.pdf",
+      "applied_at": "2026-08-27 04:50:17",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Zerodha (Rainmatter).",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_browserstack_python_07",
       "company": "BrowserStack",
       "title": "Python Developer Intern",
       "location": "Bangalore / Mumbai",
       "portal": "Standard",
+      "job_url": "https://www.browserstack.com/careers",
       "track": "Core Software & SDE",
+      "jd_text": "Python scripting, test automation frameworks, cloud device orchestration, API integrations, and Linux systems programming.",
       "ats": 89.7,
       "status": "SUCCESS",
-      "pdf": "resume_BrowserStack_blr_browserstack_python_07.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to BrowserStack (SMTP credentials can be added in Settings).",
+      "pdf": "resume_BrowserStack_blr_browserstack_python_07.pdf",
+      "applied_at": "2026-08-27 04:50:14",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at BrowserStack.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_postman_sde_intern_06",
       "company": "Postman",
       "title": "Software Development Engineer (SDE) Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://www.postman.com/company/careers",
       "track": "Core Software & SDE",
+      "jd_text": "Build scalable backend microservices, REST APIs, asynchronous network programming in Python/C++, and continuous integration testing.",
       "ats": 89.7,
       "status": "SUCCESS",
-      "pdf": "resume_Postman_blr_postman_sde_intern_06.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Postman Greenhouse gateway.",
+      "pdf": "resume_Postman_blr_postman_sde_intern_06.pdf",
+      "applied_at": "2026-08-27 04:50:11",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Postman.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_phonepe_data_eng_05",
       "company": "PhonePe",
       "title": "Data Engineer Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.phonepe.com/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "ETL pipelines, high-volume data stream ingestion, SQL optimization, data cleaning, and automated metrics computation.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to PhonePe (SMTP credentials can be added in Settings).",
+      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf",
+      "applied_at": "2026-08-27 04:50:07",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at PhonePe.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_razorpay_analytics_04",
       "company": "Razorpay",
       "title": "Quantitative & Analytics Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://razorpay.com/jobs",
       "track": "Data Science & Analytics",
+      "jd_text": "Time-series transaction modeling, statistical anomaly detection, data visualization in Python, and predictive algorithm benchmarking.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Razorpay Greenhouse gateway.",
+      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf",
+      "applied_at": "2026-08-27 04:50:04",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Razorpay.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_cred_bi_analyst_03",
       "company": "CRED",
       "title": "Business Intelligence (BI) Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Lever",
+      "job_url": "https://cred.club/careers",
       "track": "Data Science & Analytics",
+      "jd_text": "Build high-throughput telemetry pipelines, automated data dashboards, Python automation scripts, and quantitative user behavior analytics.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to CRED Lever gateway.",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf",
+      "applied_at": "2026-08-27 04:50:01",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at CRED.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_flipkart_data_science_02",
       "company": "Flipkart",
       "title": "Data Science Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.flipkartcareers.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Predictive analytics on time-series telemetry, feature engineering, Optuna/Bayesian hyperparameter optimization, machine learning modeling, and conformal uncertainty.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Flipkart (SMTP credentials can be added in Settings).",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf",
+      "applied_at": "2026-08-27 04:49:58",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Flipkart.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_swiggy_data_analyst_01",
       "company": "Swiggy",
       "title": "Data Analyst Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://careers.swiggy.com",
       "track": "Data Science & Analytics",
+      "jd_text": "Exploratory Data Analysis (EDA) on delivery telemetry, SQL queries, Python (Pandas/NumPy), statistical modeling, and dashboard creation. High analytical aptitude required.",
       "ats": 85.0,
       "status": "SUCCESS",
-      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Swiggy Greenhouse gateway.",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf",
+      "applied_at": "2026-08-27 04:49:55",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Swiggy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_ola_electric_bms_19",
       "company": "Ola Electric",
       "title": "Battery Management System (BMS) Firmware Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://olaelectric.com/careers",
       "track": "Embedded Systems & Silicon Firmware",
+      "jd_text": "Embedded C firmware for high-voltage battery management systems, isolated I2C/CAN bus communication, over-temperature protection, and state-of-charge algorithms.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_OlaElectric_blr_ola_electric_bms_19.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Ola Electric (SMTP credentials can be added in Settings).",
+      "pdf": "resume_OlaElectric_blr_ola_electric_bms_19.pdf",
+      "applied_at": "2026-08-27 04:43:49",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Ola Electric.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_samsung_edge_ai_09",
       "company": "Samsung R&D Institute (SRI-B)",
       "title": "Edge AI & Neural Compiler Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://research.samsung.com/sri-b",
       "track": "Edge AI Acceleration",
+      "jd_text": "Quantize deep neural networks (INT8/FP8) for mobile NPUs and edge processors via ONNX Runtime. Experience with PyTorch and heterogeneous tensor runtimes.",
       "ats": 99.0,
       "status": "SUCCESS",
-      "pdf": "resume_SamsungRDInstituteSRI-B_blr_samsung_edge_ai_09.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Samsung R&D Institute (SRI-B) (SMTP credentials can be added in Settings).",
+      "pdf": "resume_SamsungRDInstituteSRI-B_blr_samsung_edge_ai_09.pdf",
+      "applied_at": "2026-08-27 04:43:46",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Samsung R&D Institute (SRI-B).",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_bosch_automotive_embedded_08",
       "company": "Bosch India",
       "title": "Automotive Embedded Systems Intern",
       "location": "Bangalore, Karnataka",
       "portal": "SmartRecruiters",
+      "job_url": "https://www.bosch.in/careers",
       "track": "Embedded Systems & Silicon Firmware",
+      "jd_text": "CAN 2.0B / CAN-FD fault recovery state machines, FreeRTOS multi-task scheduling, hardware-in-the-loop (HIL) testing, and automotive sensor acquisition.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_BoschIndia_blr_bosch_automotive_embedded_08.pdf"
+      "mode": "SmartRecruiters",
+      "response": "Resume tailored and staged for 1-click dispatch to Bosch India (SMTP credentials can be added in Settings).",
+      "pdf": "resume_BoschIndia_blr_bosch_automotive_embedded_08.pdf",
+      "applied_at": "2026-08-27 04:43:43",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Bosch India.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_qualcomm_firmware_07",
       "company": "Qualcomm India",
       "title": "Microcontroller Firmware & Silicon Validation Intern",
       "location": "Bangalore / Hyderabad",
       "portal": "Workday",
+      "job_url": "https://www.qualcomm.com/company/careers",
       "track": "Embedded Systems & Silicon Firmware",
+      "jd_text": "Cellular modem peripheral validation, non-blocking AT command FSMs, DMA circular ring-buffers, hardware watchdog supervision, and register-level embedded C/C++.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_QualcommIndia_blr_qualcomm_firmware_07.pdf"
+      "mode": "Workday",
+      "response": "Resume tailored and staged for 1-click dispatch to Qualcomm India (SMTP credentials can be added in Settings).",
+      "pdf": "resume_QualcommIndia_blr_qualcomm_firmware_07.pdf",
+      "applied_at": "2026-08-27 04:43:40",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Qualcomm India.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_ti_embedded_intern_06",
       "company": "Texas Instruments",
       "title": "Embedded Software & Firmware Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Workday",
+      "job_url": "https://careers.ti.com",
       "track": "Embedded Systems & Silicon Firmware",
+      "jd_text": "ARM Cortex-M bare-metal C and FreeRTOS development, circular DMA UART drivers, I2C 9-clock bus un-jamming, SPI hardware interfacing, and low-power silicon validation.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_TexasInstruments_blr_ti_embedded_intern_06.pdf"
+      "mode": "Workday",
+      "response": "Resume tailored and staged for 1-click dispatch to Texas Instruments (SMTP credentials can be added in Settings).",
+      "pdf": "resume_TexasInstruments_blr_ti_embedded_intern_06.pdf",
+      "applied_at": "2026-08-27 04:43:36",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Texas Instruments.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_tonbo_perception_05",
       "company": "Tonbo Imaging",
       "title": "Computer Vision & Perception Trainee",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://tonboimaging.com/careers",
       "track": "Robotics Software & Autonomous Systems",
+      "jd_text": "Real-time edge computer vision on thermal and optical sensors, edge DSP acceleration, OpenCV pipeline optimization at 35+ FPS.",
       "ats": 97.0,
       "status": "SUCCESS",
-      "pdf": "resume_TonboImaging_blr_tonbo_perception_05.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Tonbo Imaging (SMTP credentials can be added in Settings).",
+      "pdf": "resume_TonboImaging_blr_tonbo_perception_05.pdf",
+      "applied_at": "2026-08-27 04:43:33",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Tonbo Imaging.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_skylark_drone_embedded_04",
       "company": "Skylark Drones",
       "title": "Unmanned Aerial Vehicle (UAV) Autonomy Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://www.skylarkdrones.com/careers",
       "track": "Robotics Software & Autonomous Systems",
+      "jd_text": "Autonomous drone trajectory optimization, flight controller firmware (PX4/ArduPilot), ARM Cortex companion computers, and low-latency UDP telemetry streams.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_SkylarkDrones_blr_skylark_drone_embedded_04.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Skylark Drones (SMTP credentials can be added in Settings).",
+      "pdf": "resume_SkylarkDrones_blr_skylark_drone_embedded_04.pdf",
+      "applied_at": "2026-08-27 04:43:30",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Skylark Drones.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_greyorange_amr_intern_03",
       "company": "GreyOrange",
       "title": "Autonomous Mobile Robot (AMR) Software Intern",
       "location": "Bangalore / Gurgaon",
       "portal": "Lever",
+      "job_url": "https://www.greyorange.com/careers",
       "track": "Robotics Software & Autonomous Systems",
+      "jd_text": "Develop warehouse navigation algorithms, CycloneDDS intra-process messaging, obstacle avoidance with LiDAR/ultrasonic arrays, and fleet telemetry protocols.",
       "ats": 97.0,
       "status": "SUCCESS",
-      "pdf": "resume_GreyOrange_blr_greyorange_amr_intern_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to GreyOrange Lever gateway.",
+      "pdf": "resume_GreyOrange_blr_greyorange_amr_intern_03.pdf",
+      "applied_at": "2026-08-27 04:43:27",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at GreyOrange.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_cynlr_vision_robotics_02",
       "company": "CynLr (Cybernetics Laboratory)",
       "title": "Robotics Vision & Manipulation Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Standard",
+      "job_url": "https://cynlr.com/careers",
       "track": "Robotics Software & Autonomous Systems",
+      "jd_text": "Work on visual object manipulation and 5-DOF/6-DOF robotic arms. Experience with OpenCV, ROS 2 Jazzy, inverse kinematics solvers, and real-time C++ required.",
       "ats": 97.0,
       "status": "SUCCESS",
-      "pdf": "resume_CynLrCyberneticsLaboratory_blr_cynlr_vision_robotics_02.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to CynLr (Cybernetics Laboratory) (SMTP credentials can be added in Settings).",
+      "pdf": "resume_CynLrCyberneticsLaboratory_blr_cynlr_vision_robotics_02.pdf",
+      "applied_at": "2026-08-27 04:43:23",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at CynLr (Cybernetics Laboratory).",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "blr_ather_robotics_intern_01",
       "company": "Ather Energy",
       "title": "Robotics & Controls Engineer Intern",
       "location": "Bangalore, Karnataka",
       "portal": "Greenhouse",
+      "job_url": "https://www.atherenergy.com/careers",
       "track": "Robotics Software & Autonomous Systems",
+      "jd_text": "Seeking Robotics & Controls Intern for vehicle dynamics, motor drive control loops (50 Hz), MATLAB/Simulink modeling, and CAN 2.0B bus integration. B.Tech in Robotics/EE with strong C++ and kinematics foundations.",
       "ats": 85.6,
       "status": "SUCCESS",
-      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_01.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Ather Energy Greenhouse gateway.",
+      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_01.pdf",
+      "applied_at": "2026-08-27 04:43:20",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Ather Energy.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_samsara_iiot_05",
       "company": "Samsara Connected Operations",
       "title": "Industrial IoT & Cellular Systems Hardware Engineer",
       "location": "San Francisco, CA / Remote",
       "portal": "Greenhouse",
+      "job_url": "https://samsara.com/careers/",
       "track": "Industrial IoT & Cellular Hardware",
+      "jd_text": "Design ruggedized cellular telematics gateways using 4G LTE Cat-1 modems (A7670C), dual-WAN failover (WiFi/Cellular), opto-isolated 240V relay switching, snubber transient suppression, and FreeRTOS task supervisors.",
       "ats": 89.2,
       "status": "SUCCESS",
-      "pdf": "resume_SamsaraConnectedOperations_seed_samsara_iiot_05.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Samsara Connected Operations Greenhouse gateway.",
+      "pdf": "resume_SamsaraConnectedOperations_seed_samsara_iiot_05.pdf",
+      "applied_at": "2026-08-27 04:35:18",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Samsara Connected Operations.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_amd_edge_ai_04",
       "company": "AMD AI Systems & Heterogeneous Compute",
       "title": "Edge AI Acceleration & Compiler Engineer",
       "location": "Austin, TX / Remote",
       "portal": "Standard",
+      "job_url": "https://amd.com/careers/",
       "track": "Edge AI Acceleration",
+      "jd_text": "Deploy INT8/FP8 quantized deep learning models to AMD Ryzen AI NPUs (XDNA) via ONNX Runtime Vitis AI EP. Strong background in ROCm 6.x / HIP compute bridges, PEFT/LoRA on-device adaptation, and sub-10W TDP envelopes.",
       "ats": 99.0,
       "status": "SUCCESS",
-      "pdf": "resume_AMDAISystemsHeterogeneousCompute_seed_amd_edge_ai_04.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to AMD AI Systems & Heterogeneous Compute (SMTP credentials can be added in Settings).",
+      "pdf": "resume_AMDAISystemsHeterogeneousCompute_seed_amd_edge_ai_04.pdf",
+      "applied_at": "2026-08-27 04:35:15",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at AMD AI Systems & Heterogeneous Compute.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_deepmind_sciml_03",
       "company": "Google DeepMind / NVIDIA Modulus",
       "title": "Research Scientist / Engineer - Scientific Machine Learning",
       "location": "London, UK / Remote",
       "portal": "Lever",
+      "job_url": "https://deepmind.google/",
       "track": "Scientific Machine Learning (SciML)",
+      "jd_text": "Develop novel Physics-Informed Neural Networks (PINNs), Reduced-Order Models (POD/SVD Galerkin), and SINDy nonlinear identification for non-Newtonian fluid mechanics and digital twins. Deep experience with PyTorch and JAX.",
       "ats": 97.0,
       "status": "SUCCESS",
-      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to Google DeepMind / NVIDIA Modulus Lever gateway.",
+      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf",
+      "applied_at": "2026-08-27 04:35:12",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Google DeepMind / NVIDIA Modulus.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_apple_silicon_firmware_02",
       "company": "Apple Silicon Architecture",
       "title": "Embedded Systems & Firmware Engineer",
       "location": "Cupertino, CA / Remote",
       "portal": "Standard",
+      "job_url": "https://apple.com/careers/",
       "track": "Embedded Systems & Silicon Firmware",
+      "jd_text": "Looking for Embedded Firmware Engineer with expertise in ARM Cortex-M bare-metal C, FreeRTOS, zero-copy DMA circular UART, I2C 9-clock recovery, CAN Bus fault state machines, and hardware watchdog supervision.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_AppleSiliconArchitecture_seed_apple_silicon_firmware_02.pdf"
+      "mode": "Standard",
+      "response": "Resume tailored and staged for 1-click dispatch to Apple Silicon Architecture (SMTP credentials can be added in Settings).",
+      "pdf": "resume_AppleSiliconArchitecture_seed_apple_silicon_firmware_02.pdf",
+      "applied_at": "2026-08-27 04:35:09",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Apple Silicon Architecture.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_waymo_robotics_01",
       "company": "Waymo Autonomy Labs",
       "title": "Robotics Software Engineer - Controls & Middleware",
       "location": "Remote / San Francisco, CA",
       "portal": "Greenhouse",
+      "job_url": "https://waymo.com/careers/",
       "track": "Robotics Software & Autonomous Systems",
+      "jd_text": "Seeking Robotics Engineer with deep ROS 2 Jazzy, real-time C++17/20, CycloneDDS, inverse kinematics solvers, and CAN 2.0B bus integration. Experience with ARM Cortex embedded systems and sensor fusion (LiDAR/IMU) preferred.",
       "ats": 91.0,
       "status": "SUCCESS",
-      "pdf": "resume_WaymoAutonomyLabs_seed_waymo_robotics_01.pdf"
+      "mode": "Greenhouse",
+      "response": "Application payload staged and transmitted to Waymo Autonomy Labs Greenhouse gateway.",
+      "pdf": "resume_WaymoAutonomyLabs_seed_waymo_robotics_01.pdf",
+      "applied_at": "2026-08-27 04:35:06",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Waymo Autonomy Labs.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_deepmind_sciml_03",
       "company": "Google DeepMind / NVIDIA Modulus",
       "title": "Research Scientist / Engineer - Scientific Machine Learning",
       "location": "London, UK / Remote",
       "portal": "Lever",
+      "job_url": "https://deepmind.google/",
       "track": "Scientific Machine Learning (SciML)",
+      "jd_text": "Develop novel Physics-Informed Neural Networks (PINNs), Reduced-Order Models (POD/SVD Galerkin), and SINDy nonlinear identification for non-Newtonian fluid mechanics and digital twins. Deep experience with PyTorch and JAX.",
       "ats": 97.0,
       "status": "SUCCESS",
-      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to Google DeepMind / NVIDIA Modulus Lever gateway.",
+      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf",
+      "applied_at": "2026-08-27 04:33:26",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Google DeepMind / NVIDIA Modulus.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     },
     {
+      "job_id": "seed_deepmind_sciml_03",
       "company": "Google DeepMind / NVIDIA Modulus",
       "title": "Research Scientist / Engineer - Scientific Machine Learning",
       "location": "London, UK / Remote",
       "portal": "Lever",
+      "job_url": "https://deepmind.google/",
       "track": "Scientific Machine Learning (SciML)",
+      "jd_text": "Develop novel Physics-Informed Neural Networks (PINNs), Reduced-Order Models (POD/SVD Galerkin), and SINDy nonlinear identification for non-Newtonian fluid mechanics and digital twins. Deep experience with PyTorch and JAX.",
       "ats": 97.0,
       "status": "SUCCESS",
-      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf"
+      "mode": "Lever",
+      "response": "Application payload staged and transmitted to Google DeepMind / NVIDIA Modulus Lever gateway.",
+      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf",
+      "applied_at": "2026-08-27 04:32:57",
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Google DeepMind / NVIDIA Modulus.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "715-725 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
     }
   ]
 }
