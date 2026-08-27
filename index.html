@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 Cloud AI Job Hunter - Interactive Chat & Process Tracker</title>
+    <title>🤖 Cloud AI Job Hunter & Career Ecosystem - Live Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
@@ -34,32 +34,35 @@
                 </div>
                 <div>
                     <h1 class="text-xl font-bold text-white flex items-center gap-2">
-                        Cloud AI Job Hunter & Chat Agent
+                        Cloud AI Job Hunter Ecosystem
                         <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full font-medium">9:00 AM Cloud Active</span>
                     </h1>
-                    <p class="text-xs text-slate-400">Live Telemetry & On-Demand Applying for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
+                    <p class="text-xs text-slate-400">Live Application Telemetry & Interview Prep for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
                 </div>
             </div>
             
             <!-- Navigation Tabs -->
-            <div class="flex items-center gap-2 bg-slate-950 p-1 rounded-xl border border-slate-800">
-                <button onclick="switchTab('chat')" id="tab_btn_chat" class="text-xs font-semibold px-4 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-2">
-                    <i class="fa-solid fa-comments text-amber-400"></i> AI Agent Chat
+            <div class="flex items-center gap-1.5 bg-slate-950 p-1.5 rounded-xl border border-slate-800 overflow-x-auto max-w-full">
+                <button onclick="switchTab('chat')" id="tab_btn_chat" class="text-xs font-semibold px-3.5 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-comments text-amber-400"></i> AI Chat
                 </button>
-                <button onclick="switchTab('tracker')" id="tab_btn_tracker" class="text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2">
-                    <i class="fa-solid fa-chart-pie"></i> Live Tracker & Receipts
+                <button onclick="switchTab('tracker')" id="tab_btn_tracker" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-chart-pie"></i> Live Tracker
                 </button>
-                <button onclick="switchTab('tailor')" id="tab_btn_tailor" class="text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2">
-                    <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i> Custom Job Tailor
+                <button onclick="switchTab('proofs')" id="tab_btn_proofs" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-microchip text-cyan-400"></i> Hardware Proofs
                 </button>
-                <button onclick="switchTab('resumes')" id="tab_btn_resumes" class="text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2">
+                <button onclick="switchTab('tailor')" id="tab_btn_tailor" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i> Custom Tailor
+                </button>
+                <button onclick="switchTab('resumes')" id="tab_btn_resumes" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-file-lines text-emerald-400"></i> Flagship Resumes
                 </button>
             </div>
 
             <div class="flex items-center gap-3">
                 <a href="https://github.com/Sarat-2007/ai_job_agent" target="_blank" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-2 rounded-lg border border-slate-700 flex items-center gap-2 transition">
-                    <i class="fa-brands fa-github text-sm"></i> GitHub Repo
+                    <i class="fa-brands fa-github text-sm"></i> Private Repo
                 </a>
             </div>
         </div>
@@ -68,26 +71,24 @@
     <main class="max-w-7xl mx-auto px-6 py-8 flex-1 w-full">
 
         <!-- ========================================================================= -->
-        <!-- TAB 0: INTERACTIVE AI AGENT CHAT -->
+        <!-- TAB 0: AI AGENT CHAT -->
         <!-- ========================================================================= -->
         <div id="tab_chat" class="space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm flex flex-col h-[75vh]">
                 
-                <!-- Chat Header -->
                 <div class="border-b border-slate-800 pb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                     <div>
                         <h2 class="text-lg font-bold text-white flex items-center gap-2">
                             <i class="fa-solid fa-terminal text-blue-400"></i>
                             Autonomous Job Hunter Chat Assistant
                         </h2>
-                        <p class="text-xs text-slate-400 mt-0.5">Tell me any website link or company. I will navigate, scrape the JD, tailor your 1-page resume, and apply immediately!</p>
+                        <p class="text-xs text-slate-400 mt-0.5">Paste any job link from LinkedIn/company careers or give instructions. I will scrape, tailor your 1-page resume, and submit immediately!</p>
                     </div>
                     <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full font-semibold flex items-center gap-1.5">
-                        <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span> Online & Ready
+                        <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span> Cloud Agent Online
                     </span>
                 </div>
 
-                <!-- Quick Action Chips -->
                 <div class="py-3 flex items-center gap-2 overflow-x-auto border-b border-slate-800/60 text-xs">
                     <span class="text-slate-400 text-[11px] font-semibold whitespace-nowrap">Quick Commands:</span>
                     <button onclick="sendQuickMessage('Apply to https://careers.nvidia.com/jobs/robotics-intern for Robotics & Edge AI Intern')" class="bg-slate-950 hover:bg-slate-800 text-blue-400 border border-slate-800 hover:border-blue-500/40 px-3 py-1 rounded-full whitespace-nowrap transition">
@@ -100,35 +101,26 @@
                         🚗 Apply to Tesla Autopilot
                     </button>
                     <button onclick="sendQuickMessage('Show my current application status report')" class="bg-slate-950 hover:bg-slate-800 text-amber-400 border border-slate-800 hover:border-amber-500/40 px-3 py-1 rounded-full whitespace-nowrap transition">
-                        📊 Application Status Report
+                        📊 Status Report
                     </button>
                 </div>
 
-                <!-- Chat Messages Scroll Area -->
                 <div id="chat_feed" class="flex-1 overflow-y-auto py-4 space-y-4 pr-2">
-                    <!-- Welcome Message -->
                     <div class="flex items-start gap-3">
                         <div class="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center text-white text-sm shrink-0">
                             <i class="fa-solid fa-robot"></i>
                         </div>
                         <div class="bg-slate-950 border border-slate-800 rounded-2xl rounded-tl-none p-4 max-w-xl text-xs space-y-2 text-slate-200">
-                            <p class="font-bold text-white">Hello Sarat! 👋 I am your Autonomous Job Hunter Chat Assistant.</p>
-                            <p>You can give me any website link or instruction, for example:</p>
-                            <ul class="text-slate-400 space-y-1 pl-2">
-                                <li>• <code>Apply to https://jobs.lever.co/company/role</code></li>
-                                <li>• <code>Go through https://careers.atherenergy.com and apply for Robotics Intern</code></li>
-                                <li>• <code>Scan Greenhouse/Lever for Embedded Firmware roles in Bangalore</code></li>
-                            </ul>
-                            <p class="text-slate-400">I will extract the requirements, tailor a 100% 1-page Times New Roman resume, submit the application, and log your receipt!</p>
+                            <p class="font-bold text-white">Hello Sarat! 👋 I am your Autonomous Job Hunter Assistant.</p>
+                            <p>Give me any job link or instruction. I will extract the JD, compile a 100% 1-page Times New Roman resume, dispatch the submission, generate your interview cheat sheet, and log your receipt!</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Chat Input Form -->
                 <div class="pt-4 border-t border-slate-800 flex items-center gap-3">
                     <div class="relative flex-1">
                         <i class="fa-solid fa-link absolute left-3.5 top-3.5 text-slate-500 text-sm"></i>
-                        <input type="text" id="chat_input" onkeypress="handleKeyPress(event)" placeholder="Paste any job URL or tell me: 'Apply to https://...'" class="w-full bg-slate-950 border border-slate-700 text-slate-100 text-sm rounded-xl pl-10 pr-4 py-3 focus:outline-none focus:border-blue-500">
+                        <input type="text" id="chat_input" onkeypress="handleKeyPress(event)" placeholder="Paste job URL or type: 'Apply to https://...'" class="w-full bg-slate-950 border border-slate-700 text-slate-100 text-sm rounded-xl pl-10 pr-4 py-3 focus:outline-none focus:border-blue-500">
                     </div>
                     <button onclick="sendChatMessage()" id="btn_send_chat" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-3 rounded-xl font-bold text-sm shadow-md shadow-blue-500/20 flex items-center gap-2 transition">
                         <span>Send</span> <i class="fa-solid fa-paper-plane text-xs"></i>
@@ -139,10 +131,9 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 1: LIVE APPLICATIONS TRACKER WITH PROCESS RECEIPTS -->
+        <!-- TAB 1: LIVE TRACKER & APPLICATION RECEIPTS -->
         <!-- ========================================================================= -->
         <div id="tab_tracker" class="hidden space-y-8">
-            <!-- Metrics Grid -->
             <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
                 <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-sm">
                     <div class="flex items-center justify-between text-slate-400 text-sm mb-2 font-medium">
@@ -181,7 +172,6 @@
                 </div>
             </section>
 
-            <!-- Search & Filter Controls -->
             <section class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div class="relative w-full md:w-96">
@@ -214,12 +204,11 @@
                     <table class="w-full text-left text-sm text-slate-300" id="apps_table">
                         <thead class="bg-slate-950/80 text-xs uppercase text-slate-400 border-b border-slate-800">
                             <tr>
-                                <th class="px-5 py-3.5">Company & Job Portal</th>
+                                <th class="px-5 py-3.5">Company & Portal</th>
                                 <th class="px-5 py-3.5">Job Title & Direct Link</th>
                                 <th class="px-5 py-3.5">Location</th>
                                 <th class="px-5 py-3.5">ATS Match</th>
-                                <th class="px-5 py-3.5">Status</th>
-                                <th class="px-5 py-3.5 text-center">Process & Receipt</th>
+                                <th class="px-5 py-3.5 text-center">Interview Prep & Actions</th>
                                 <th class="px-5 py-3.5 text-right">Tailored PDF</th>
                             </tr>
                         </thead>
@@ -232,13 +221,34 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 2: CUSTOM JOB TAILOR -->
+        <!-- TAB 2: HARDWARE PROOF-OF-WORK SHOWCASE -->
+        <!-- ========================================================================= -->
+        <div id="tab_proofs" class="hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
+                <div class="border-b border-slate-800 pb-4 mb-6 flex items-center justify-between">
+                    <div>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-microchip text-cyan-400"></i>
+                            Hardware Proof-of-Work & Laboratory Demonstrations
+                        </h2>
+                        <p class="text-xs text-slate-400 mt-1">Verified physical prototypes, control systems, and experimental publications in Candidate N.V.D.S. Sarat Chandra's portfolio.</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="proofs_grid">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================================================= -->
+        <!-- TAB 3: CUSTOM JOB TAILOR -->
         <!-- ========================================================================= -->
         <div id="tab_tailor" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
                 <div class="border-b border-slate-800 pb-4 mb-6">
                     <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                        <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i>
+                        <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i>
                         Custom Job Description Tailor & 1-Page Compiler
                     </h2>
                     <p class="text-xs text-slate-400 mt-1">Paste any job description from any website. The engine will tailor your projects, calibrate skills, and compile a 100% full 1-page Times New Roman resume.</p>
@@ -311,7 +321,7 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 3: FLAGSHIP RESUMES SHOWCASE -->
+        <!-- TAB 4: FLAGSHIP RESUMES SHOWCASE -->
         <!-- ========================================================================= -->
         <div id="tab_resumes" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
@@ -331,7 +341,7 @@
 
     </main>
 
-    <!-- Receipt Details Modal Popup -->
+    <!-- Modal 1: Process & Submission Receipt -->
     <div id="receipt_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
         <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl space-y-6">
             <div class="flex items-center justify-between border-b border-slate-800 pb-4">
@@ -344,7 +354,7 @@
                         <p class="text-xs text-slate-400" id="modal_applied_time">Dispatched: 2026-08-27 09:00 AM IST</p>
                     </div>
                 </div>
-                <button onclick="closeReceiptModal()" class="text-slate-400 hover:text-white p-2 text-lg">
+                <button onclick="closeModal('receipt_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
@@ -390,6 +400,79 @@
         </div>
     </div>
 
+    <!-- Modal 2: Technical Interview Prep Dossier -->
+    <div id="prep_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl space-y-6">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                <div class="flex items-center gap-3">
+                    <div class="h-10 w-10 rounded-xl bg-purple-600/20 text-purple-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white" id="prep_company_title">Technical Interview Prep Dossier</h3>
+                        <p class="text-xs text-slate-400">Company-specific questions & 30-second talking points</p>
+                    </div>
+                </div>
+                <button onclick="closeModal('prep_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="space-y-3" id="prep_questions_container">
+                <!-- Injected dynamically -->
+            </div>
+
+            <div class="space-y-2 border-t border-slate-800 pt-4">
+                <h4 class="text-xs font-bold text-amber-400 uppercase tracking-wider flex items-center gap-2">
+                    <i class="fa-solid fa-microphone"></i> 30-Second Project Soundbites for Interview
+                </h4>
+                <div class="space-y-2" id="prep_soundbites_container">
+                    <!-- Injected dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Recruiter Outreach Drafter -->
+    <div id="outreach_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl space-y-6">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                <div class="flex items-center gap-3">
+                    <div class="h-10 w-10 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white" id="outreach_company_title">Recruiter Outreach Drafter</h3>
+                        <p class="text-xs text-slate-400">High-converting LinkedIn DM & follow-up email</p>
+                    </div>
+                </div>
+                <button onclick="closeModal('outreach_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                    <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider">
+                        <i class="fa-brands fa-linkedin text-blue-400 mr-1"></i> LinkedIn Recruiter Message (1-Click Copy)
+                    </h4>
+                    <button onclick="copyToClipboard('outreach_dm_text')" class="text-xs text-blue-400 hover:underline">Copy DM</button>
+                </div>
+                <textarea id="outreach_dm_text" rows="4" readonly class="w-full bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-xl p-3 focus:outline-none font-mono"></textarea>
+            </div>
+
+            <div class="space-y-2 border-t border-slate-800 pt-4">
+                <div class="flex items-center justify-between">
+                    <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider">
+                        <i class="fa-solid fa-envelope text-emerald-400 mr-1"></i> 7-Day Follow-Up Email
+                    </h4>
+                    <button onclick="copyToClipboard('outreach_email_text')" class="text-xs text-blue-400 hover:underline">Copy Email</button>
+                </div>
+                <textarea id="outreach_email_text" rows="6" readonly class="w-full bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-xl p-3 focus:outline-none font-mono"></textarea>
+            </div>
+        </div>
+    </div>
+
     <footer class="border-t border-slate-800/80 py-4 text-center text-xs text-slate-500">
         Autonomous Multi-Agent Job Hunter & Resume Tailor • Powered by GitHub Actions & Tectonic LaTeX Engine
     </footer>
@@ -406,20 +489,23 @@
         ];
 
         let applications = [];
+        let hardwareProofs = [];
 
         function switchTab(tabName) {
             document.getElementById("tab_chat").classList.add("hidden");
             document.getElementById("tab_tracker").classList.add("hidden");
+            document.getElementById("tab_proofs").classList.add("hidden");
             document.getElementById("tab_tailor").classList.add("hidden");
             document.getElementById("tab_resumes").classList.add("hidden");
 
-            document.getElementById("tab_btn_chat").className = "text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2";
-            document.getElementById("tab_btn_tracker").className = "text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2";
-            document.getElementById("tab_btn_tailor").className = "text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2";
-            document.getElementById("tab_btn_resumes").className = "text-xs font-semibold px-4 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-2";
+            document.getElementById("tab_btn_chat").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            document.getElementById("tab_btn_tracker").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            document.getElementById("tab_btn_proofs").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            document.getElementById("tab_btn_tailor").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            document.getElementById("tab_btn_resumes").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
 
             document.getElementById(`tab_${tabName}`).classList.remove("hidden");
-            document.getElementById(`tab_btn_${tabName}`).className = "text-xs font-semibold px-4 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-2";
+            document.getElementById(`tab_btn_${tabName}`).className = "text-xs font-semibold px-3.5 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap";
         }
 
         function handleKeyPress(e) {
@@ -440,7 +526,6 @@
 
             const feed = document.getElementById("chat_feed");
 
-            // Append User Bubble
             const userBubble = document.createElement("div");
             userBubble.className = "flex items-start gap-3 justify-end";
             userBubble.innerHTML = `
@@ -454,7 +539,6 @@
             feed.appendChild(userBubble);
             input.value = "";
 
-            // Append Agent Thinking Bubble
             const thinkingId = "think_" + Date.now();
             const thinkBubble = document.createElement("div");
             thinkBubble.id = thinkingId;
@@ -471,7 +555,6 @@
             feed.appendChild(thinkBubble);
             feed.scrollTop = feed.scrollHeight;
 
-            // Call API or Client Fallback
             fetch('/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -483,7 +566,6 @@
                 appendAgentResponse(data.reply, data.job);
             })
             .catch(() => {
-                // Client-side fallback for static GitHub Pages
                 setTimeout(() => {
                     document.getElementById(thinkingId).remove();
                     const comp = msg.includes("http") ? (msg.split("/")[2] || "Company").replace("www.","").split(".")[0].toUpperCase() : "Target Company";
@@ -564,11 +646,18 @@
                     </td>
                     <td class="px-5 py-4 text-slate-400 text-xs">${item.location}</td>
                     <td class="px-5 py-4"><span class="text-emerald-400 font-bold">${item.ats}%</span></td>
-                    <td class="px-5 py-4"><span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"><i class="fa-solid fa-check mr-1"></i> ${item.status}</span></td>
                     <td class="px-5 py-4 text-center">
-                        <button onclick="openReceiptModal(${index})" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 flex items-center justify-center gap-1.5 mx-auto transition">
-                            <i class="fa-solid fa-circle-info text-blue-400"></i> View Process
-                        </button>
+                        <div class="flex items-center justify-center gap-1.5">
+                            <button onclick="openPrepModal(${index})" title="Technical Interview Prep" class="text-xs bg-purple-900/40 hover:bg-purple-800 text-purple-300 border border-purple-700/50 px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition">
+                                <i class="fa-solid fa-graduation-cap"></i> Prep
+                            </button>
+                            <button onclick="openOutreachModal(${index})" title="Recruiter DM Drafter" class="text-xs bg-blue-900/40 hover:bg-blue-800 text-blue-300 border border-blue-700/50 px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition">
+                                <i class="fa-solid fa-paper-plane"></i> DM
+                            </button>
+                            <button onclick="openReceiptModal(${index})" title="Process Receipt" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-2 py-1.5 rounded-lg transition">
+                                <i class="fa-solid fa-receipt"></i>
+                            </button>
+                        </div>
                     </td>
                     <td class="px-5 py-4 text-right">
                         <a href="resumes/${item.pdf}" target="_blank" class="inline-flex items-center gap-1.5 text-xs bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white px-3 py-1.5 rounded-lg border border-slate-700 transition">
@@ -602,8 +691,92 @@
             document.getElementById("receipt_modal").classList.remove("hidden");
         }
 
-        function closeReceiptModal() {
-            document.getElementById("receipt_modal").classList.add("hidden");
+        function openPrepModal(index) {
+            const item = applications[index];
+            if (!item) return;
+
+            document.getElementById("prep_company_title").innerText = `${item.company} — Technical Interview Prep`;
+            const dossier = item.interview_dossier || {};
+            
+            const qContainer = document.getElementById("prep_questions_container");
+            qContainer.innerHTML = "";
+            (dossier.interview_questions || []).forEach((qa, i) => {
+                const div = document.createElement("div");
+                div.className = "bg-slate-950 p-3.5 rounded-xl border border-slate-800 text-xs space-y-1.5";
+                div.innerHTML = `
+                    <div class="font-bold text-purple-300 flex items-start gap-2">
+                        <span class="bg-purple-900/60 text-purple-200 px-1.5 py-0.5 rounded text-[10px]">Q${i+1}</span>
+                        ${qa.q}
+                    </div>
+                    <div class="text-slate-300 pl-6 leading-relaxed italic">${qa.a}</div>
+                `;
+                qContainer.appendChild(div);
+            });
+
+            const sContainer = document.getElementById("prep_soundbites_container");
+            sContainer.innerHTML = "";
+            (dossier.project_soundbites || []).forEach(sb => {
+                const div = document.createElement("div");
+                div.className = "bg-slate-950 p-2.5 rounded-xl border border-slate-800 text-xs flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2";
+                div.innerHTML = `
+                    <strong class="text-white shrink-0">${sb.project}:</strong>
+                    <span class="text-slate-400 text-[11px]">${sb.pitch}</span>
+                `;
+                sContainer.appendChild(div);
+            });
+
+            document.getElementById("prep_modal").classList.remove("hidden");
+        }
+
+        function openOutreachModal(index) {
+            const item = applications[index];
+            if (!item) return;
+
+            document.getElementById("outreach_company_title").innerText = `${item.company} — Recruiter Outreach`;
+            const outreach = item.recruiter_outreach || {};
+
+            document.getElementById("outreach_dm_text").value = outreach.linkedin_dm || `Hi [Recruiter Name], I recently applied for the ${item.title} role at ${item.company}...`;
+            document.getElementById("outreach_email_text").value = outreach.follow_up_email || `Subject: Following Up on ${item.title} Application...`;
+
+            document.getElementById("outreach_modal").classList.remove("hidden");
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.add("hidden");
+        }
+
+        function copyToClipboard(elementId) {
+            const copyText = document.getElementById(elementId);
+            copyText.select();
+            navigator.clipboard.writeText(copyText.value);
+            alert("Copied to clipboard!");
+        }
+
+        function renderProofs(proofs) {
+            const grid = document.getElementById("proofs_grid");
+            grid.innerHTML = "";
+
+            proofs.forEach(p => {
+                const card = document.createElement("div");
+                card.className = "bg-slate-950 border border-slate-800 rounded-xl p-5 flex flex-col justify-between space-y-3";
+                card.innerHTML = `
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-[11px] bg-cyan-900/40 text-cyan-300 border border-cyan-700/50 px-2.5 py-0.5 rounded font-semibold">${p.category}</span>
+                            <span class="text-[11px] text-slate-400 font-mono">${p.stats}</span>
+                        </div>
+                        <h4 class="text-sm font-bold text-white mb-1">${p.title}</h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">${p.description}</p>
+                    </div>
+                    <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between">
+                        <span class="text-[10px] text-slate-500 font-mono">${p.badge}</span>
+                        <a href="${p.video_url}" target="_blank" class="bg-cyan-600/20 hover:bg-cyan-600 text-cyan-300 hover:text-white px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition">
+                            <i class="fa-solid fa-play text-[10px]"></i> View Project
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
         }
 
         function renderFlagships() {
@@ -676,12 +849,18 @@
             fetch('data.json')
                 .then(r => r.json())
                 .then(data => {
-                    if (data && data.applications) {
-                        applications = data.applications;
-                        document.getElementById("stat_total_jobs").innerText = data.stats.total_jobs;
-                        document.getElementById("stat_total_applied").innerText = data.stats.total_applied;
-                        document.getElementById("stat_avg_ats").innerText = data.stats.avg_ats + "%";
-                        filterApplications();
+                    if (data) {
+                        if (data.applications) {
+                            applications = data.applications;
+                            document.getElementById("stat_total_jobs").innerText = data.stats.total_jobs;
+                            document.getElementById("stat_total_applied").innerText = data.stats.total_applied;
+                            document.getElementById("stat_avg_ats").innerText = data.stats.avg_ats + "%";
+                            filterApplications();
+                        }
+                        if (data.hardware_proof_of_work) {
+                            hardwareProofs = data.hardware_proof_of_work;
+                            renderProofs(hardwareProofs);
+                        }
                     }
                 })
                 .catch(() => {
