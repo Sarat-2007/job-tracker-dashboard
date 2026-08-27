@@ -1,0 +1,459 @@
+{
+  "stats": {
+    "total_jobs": 187,
+    "total_applied": 46,
+    "avg_ats": 88.5
+  },
+  "applications": [
+    {
+      "company": "PhonePe",
+      "title": "Data Engineer Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 79.0,
+      "status": "SUCCESS",
+      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf"
+    },
+    {
+      "company": "Razorpay",
+      "title": "Quantitative & Analytics Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 79.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf"
+    },
+    {
+      "company": "CRED",
+      "title": "Business Intelligence (BI) Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Lever",
+      "track": "Data Science & Analytics",
+      "ats": 79.0,
+      "status": "SUCCESS",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+    },
+    {
+      "company": "Flipkart",
+      "title": "Data Science Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 79.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+    },
+    {
+      "company": "Swiggy",
+      "title": "Data Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 79.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+    },
+    {
+      "company": "Ather Energy",
+      "title": "Robotics & Controls Engineer Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Robotics Software & Autonomy",
+      "ats": 95.0,
+      "status": "SUCCESS",
+      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_11.pdf"
+    },
+    {
+      "company": "Swiggy",
+      "title": "Software QA & Automation Testing Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Core Software & SDE",
+      "ats": 88.7,
+      "status": "SUCCESS",
+      "pdf": "resume_Swiggy_blr_swiggy_qa_automation_10.pdf"
+    },
+    {
+      "company": "Zerodha (Rainmatter)",
+      "title": "Junior C++ Systems Developer",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Core Software & SDE",
+      "ats": 88.7,
+      "status": "SUCCESS",
+      "pdf": "resume_ZerodhaRainmatter_blr_zerodha_systems_08.pdf"
+    },
+    {
+      "company": "BrowserStack",
+      "title": "Python Developer Intern",
+      "location": "Bangalore / Mumbai",
+      "portal": "Standard",
+      "track": "Core Software & SDE",
+      "ats": 88.7,
+      "status": "SUCCESS",
+      "pdf": "resume_BrowserStack_blr_browserstack_python_07.pdf"
+    },
+    {
+      "company": "Postman",
+      "title": "Software Development Engineer (SDE) Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Core Software & SDE",
+      "ats": 88.7,
+      "status": "SUCCESS",
+      "pdf": "resume_Postman_blr_postman_sde_intern_06.pdf"
+    },
+    {
+      "company": "PhonePe",
+      "title": "Data Engineer Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 83.0,
+      "status": "SUCCESS",
+      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf"
+    },
+    {
+      "company": "Razorpay",
+      "title": "Quantitative & Analytics Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 83.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf"
+    },
+    {
+      "company": "CRED",
+      "title": "Business Intelligence (BI) Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Lever",
+      "track": "Data Science & Analytics",
+      "ats": 83.0,
+      "status": "SUCCESS",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+    },
+    {
+      "company": "Flipkart",
+      "title": "Data Science Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 83.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+    },
+    {
+      "company": "Swiggy",
+      "title": "Data Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 83.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+    },
+    {
+      "company": "CRED",
+      "title": "Business Intelligence (BI) Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Lever",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+    },
+    {
+      "company": "Flipkart",
+      "title": "Data Science Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+    },
+    {
+      "company": "Swiggy",
+      "title": "Data Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+    },
+    {
+      "company": "Ather Energy",
+      "title": "Robotics & Controls Engineer Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Robotics Software & Autonomy",
+      "ats": 88.0,
+      "status": "SUCCESS",
+      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_11.pdf"
+    },
+    {
+      "company": "Swiggy",
+      "title": "Software QA & Automation Testing Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Core Software & SDE",
+      "ats": 89.7,
+      "status": "SUCCESS",
+      "pdf": "resume_Swiggy_blr_swiggy_qa_automation_10.pdf"
+    },
+    {
+      "company": "Zerodha (Rainmatter)",
+      "title": "Junior C++ Systems Developer",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Core Software & SDE",
+      "ats": 89.7,
+      "status": "SUCCESS",
+      "pdf": "resume_ZerodhaRainmatter_blr_zerodha_systems_08.pdf"
+    },
+    {
+      "company": "BrowserStack",
+      "title": "Python Developer Intern",
+      "location": "Bangalore / Mumbai",
+      "portal": "Standard",
+      "track": "Core Software & SDE",
+      "ats": 89.7,
+      "status": "SUCCESS",
+      "pdf": "resume_BrowserStack_blr_browserstack_python_07.pdf"
+    },
+    {
+      "company": "Postman",
+      "title": "Software Development Engineer (SDE) Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Core Software & SDE",
+      "ats": 89.7,
+      "status": "SUCCESS",
+      "pdf": "resume_Postman_blr_postman_sde_intern_06.pdf"
+    },
+    {
+      "company": "PhonePe",
+      "title": "Data Engineer Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_PhonePe_blr_phonepe_data_eng_05.pdf"
+    },
+    {
+      "company": "Razorpay",
+      "title": "Quantitative & Analytics Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Razorpay_blr_razorpay_analytics_04.pdf"
+    },
+    {
+      "company": "CRED",
+      "title": "Business Intelligence (BI) Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Lever",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_CRED_blr_cred_bi_analyst_03.pdf"
+    },
+    {
+      "company": "Flipkart",
+      "title": "Data Science Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Flipkart_blr_flipkart_data_science_02.pdf"
+    },
+    {
+      "company": "Swiggy",
+      "title": "Data Analyst Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Data Science & Analytics",
+      "ats": 85.0,
+      "status": "SUCCESS",
+      "pdf": "resume_Swiggy_blr_swiggy_data_analyst_01.pdf"
+    },
+    {
+      "company": "Ola Electric",
+      "title": "Battery Management System (BMS) Firmware Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Embedded Systems & Silicon Firmware",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_OlaElectric_blr_ola_electric_bms_19.pdf"
+    },
+    {
+      "company": "Samsung R&D Institute (SRI-B)",
+      "title": "Edge AI & Neural Compiler Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Edge AI Acceleration",
+      "ats": 99.0,
+      "status": "SUCCESS",
+      "pdf": "resume_SamsungRDInstituteSRI-B_blr_samsung_edge_ai_09.pdf"
+    },
+    {
+      "company": "Bosch India",
+      "title": "Automotive Embedded Systems Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "SmartRecruiters",
+      "track": "Embedded Systems & Silicon Firmware",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_BoschIndia_blr_bosch_automotive_embedded_08.pdf"
+    },
+    {
+      "company": "Qualcomm India",
+      "title": "Microcontroller Firmware & Silicon Validation Intern",
+      "location": "Bangalore / Hyderabad",
+      "portal": "Workday",
+      "track": "Embedded Systems & Silicon Firmware",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_QualcommIndia_blr_qualcomm_firmware_07.pdf"
+    },
+    {
+      "company": "Texas Instruments",
+      "title": "Embedded Software & Firmware Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Workday",
+      "track": "Embedded Systems & Silicon Firmware",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_TexasInstruments_blr_ti_embedded_intern_06.pdf"
+    },
+    {
+      "company": "Tonbo Imaging",
+      "title": "Computer Vision & Perception Trainee",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Robotics Software & Autonomous Systems",
+      "ats": 97.0,
+      "status": "SUCCESS",
+      "pdf": "resume_TonboImaging_blr_tonbo_perception_05.pdf"
+    },
+    {
+      "company": "Skylark Drones",
+      "title": "Unmanned Aerial Vehicle (UAV) Autonomy Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Robotics Software & Autonomous Systems",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_SkylarkDrones_blr_skylark_drone_embedded_04.pdf"
+    },
+    {
+      "company": "GreyOrange",
+      "title": "Autonomous Mobile Robot (AMR) Software Intern",
+      "location": "Bangalore / Gurgaon",
+      "portal": "Lever",
+      "track": "Robotics Software & Autonomous Systems",
+      "ats": 97.0,
+      "status": "SUCCESS",
+      "pdf": "resume_GreyOrange_blr_greyorange_amr_intern_03.pdf"
+    },
+    {
+      "company": "CynLr (Cybernetics Laboratory)",
+      "title": "Robotics Vision & Manipulation Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Standard",
+      "track": "Robotics Software & Autonomous Systems",
+      "ats": 97.0,
+      "status": "SUCCESS",
+      "pdf": "resume_CynLrCyberneticsLaboratory_blr_cynlr_vision_robotics_02.pdf"
+    },
+    {
+      "company": "Ather Energy",
+      "title": "Robotics & Controls Engineer Intern",
+      "location": "Bangalore, Karnataka",
+      "portal": "Greenhouse",
+      "track": "Robotics Software & Autonomous Systems",
+      "ats": 85.6,
+      "status": "SUCCESS",
+      "pdf": "resume_AtherEnergy_blr_ather_robotics_intern_01.pdf"
+    },
+    {
+      "company": "Samsara Connected Operations",
+      "title": "Industrial IoT & Cellular Systems Hardware Engineer",
+      "location": "San Francisco, CA / Remote",
+      "portal": "Greenhouse",
+      "track": "Industrial IoT & Cellular Hardware",
+      "ats": 89.2,
+      "status": "SUCCESS",
+      "pdf": "resume_SamsaraConnectedOperations_seed_samsara_iiot_05.pdf"
+    },
+    {
+      "company": "AMD AI Systems & Heterogeneous Compute",
+      "title": "Edge AI Acceleration & Compiler Engineer",
+      "location": "Austin, TX / Remote",
+      "portal": "Standard",
+      "track": "Edge AI Acceleration",
+      "ats": 99.0,
+      "status": "SUCCESS",
+      "pdf": "resume_AMDAISystemsHeterogeneousCompute_seed_amd_edge_ai_04.pdf"
+    },
+    {
+      "company": "Google DeepMind / NVIDIA Modulus",
+      "title": "Research Scientist / Engineer - Scientific Machine Learning",
+      "location": "London, UK / Remote",
+      "portal": "Lever",
+      "track": "Scientific Machine Learning (SciML)",
+      "ats": 97.0,
+      "status": "SUCCESS",
+      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf"
+    },
+    {
+      "company": "Apple Silicon Architecture",
+      "title": "Embedded Systems & Firmware Engineer",
+      "location": "Cupertino, CA / Remote",
+      "portal": "Standard",
+      "track": "Embedded Systems & Silicon Firmware",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_AppleSiliconArchitecture_seed_apple_silicon_firmware_02.pdf"
+    },
+    {
+      "company": "Waymo Autonomy Labs",
+      "title": "Robotics Software Engineer - Controls & Middleware",
+      "location": "Remote / San Francisco, CA",
+      "portal": "Greenhouse",
+      "track": "Robotics Software & Autonomous Systems",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "pdf": "resume_WaymoAutonomyLabs_seed_waymo_robotics_01.pdf"
+    },
+    {
+      "company": "Google DeepMind / NVIDIA Modulus",
+      "title": "Research Scientist / Engineer - Scientific Machine Learning",
+      "location": "London, UK / Remote",
+      "portal": "Lever",
+      "track": "Scientific Machine Learning (SciML)",
+      "ats": 97.0,
+      "status": "SUCCESS",
+      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf"
+    },
+    {
+      "company": "Google DeepMind / NVIDIA Modulus",
+      "title": "Research Scientist / Engineer - Scientific Machine Learning",
+      "location": "London, UK / Remote",
+      "portal": "Lever",
+      "track": "Scientific Machine Learning (SciML)",
+      "ats": 97.0,
+      "status": "SUCCESS",
+      "pdf": "resume_GoogleDeepMindNVIDIAModulus_seed_deepmind_sciml_03.pdf"
+    }
+  ]
+}
