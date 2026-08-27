@@ -1,9 +1,9 @@
 {
   "stats": {
-    "total_jobs": 191,
-    "total_applied": 58,
-    "avg_ats": 86.0,
-    "updated_at": "2026-08-27 15:14:54 IST"
+    "total_jobs": 192,
+    "total_applied": 59,
+    "avg_ats": 86.1,
+    "updated_at": "2026-08-27 17:21:27 IST"
   },
   "recruiter_inbox": {
     "total_scanned": 15,
@@ -16,7 +16,7 @@
         "subject": "Interview Invitation: Robotics & Edge AI Intern - NVIDIA",
         "category": "INTERVIEW_INVITE",
         "company": "NVIDIA",
-        "date": "2026-08-27 15:14",
+        "date": "2026-08-27 17:21",
         "summary": "Technical screening with the Autonomous Systems team. Schedule your slot.",
         "action_required": "Schedule Slot via Link",
         "priority": "HIGH"
@@ -26,7 +26,7 @@
         "subject": "Online Assessment Link: Data Analyst Intern - Swiggy",
         "category": "ONLINE_ASSESSMENT",
         "company": "Swiggy",
-        "date": "2026-08-27 15:14",
+        "date": "2026-08-27 17:21",
         "summary": "HackerRank technical assessment for SQL & Python modeling (90 mins).",
         "action_required": "Complete OA within 48h",
         "priority": "HIGH"
@@ -36,7 +36,7 @@
         "subject": "Application Received: Embedded Software Intern - Texas Instruments",
         "category": "APPLICATION_ACKNOWLEDGED",
         "company": "Texas Instruments",
-        "date": "2026-08-27 15:14",
+        "date": "2026-08-27 17:21",
         "summary": "Your application and 1-page resume have been routed to the hiring manager.",
         "action_required": "None",
         "priority": "NORMAL"
@@ -148,6 +148,131 @@
     }
   ],
   "applications": [
+    {
+      "job_id": "live_goldmansachs_20260827_153428",
+      "company": "Goldman Sachs",
+      "title": "Data Analyst & Quantitative Modeling Intern",
+      "location": "Bangalore, India / Global Remote",
+      "portal": "Live Browser Automation",
+      "job_url": "https://www.goldmansachs.com/careers/",
+      "track": "General Robotics/AI",
+      "jd_text": "What We Do\nInsights\nOur Firm\nCareers\nInvestor Relations\nPressroom\nWorldwide\nAlumni\nClient Login\nCAREERS\nChoose Excellence\nStudents\nDiscover our internships and programs for students and recent graduates.\nOpen Roles\nExplore job openings that align with your skills.\nThe Best People Backed by World-Class Benefits\nThe Goldman Sachs Culture\n\nOur firm is for those who insist on excellence, strive for performance, and thrive on opportunities to learn from the best.\n\nDiscover Life at GS\nSupporting Success\n\nWe provide top-tier benefits, from comprehensive healthcare options and crisis support to wellness programs and more.\n\nLearn More\nVoices of the Firm\n\u201c\nThe best part of being an engineer at Goldman Sachs is having the opportunity to interact with people globally...\u201d\nRahul\nExecutive Director/Vice President\nEngineering, Bengaluru\n\u201c\nInclusion networks play an important role in creating a sense of community within the firm.\u201d\nElaine\nManaging Director\nCF&O - Risk, Dallas\n\u201c\nIt is quite refreshing to have a firm say to you, \u2018we realize that you have a life outside the firm, and we want to support you.\u201d\nStephanie\nManaging Director\nGlobal Compliance, Hong Kong\n\u201c\nGoldman puts trust in the people that work here.\u201d\nGeorge\nExecutive Director/Vice President\nWealth Management, New York\n\u201c\nThese are exciting times to work in Shenzhen. The city is a growing hub for tech firms and entrepreneurs.\u201d\nJoanna\nAssociate\nWealth Management, Shenzhen\nSlide 1 of 5\nFEATURED ROLES\nYour Pursuit of Exceptional Starts ",
+      "ats": 91.0,
+      "status": "SUCCESS",
+      "mode": "LIVE_BROWSER_DEEP_TAILOR",
+      "response": "Live tailored and compiled for Goldman Sachs (Data Analyst & Quantitative Modeling Intern)",
+      "pdf": "resume_GoldmanSachs_DataAnalystQuan_20260827_153428.pdf",
+      "applied_at": "2026-08-27 10:04:29",
+      "interview_dossier": {
+        "company": "Goldman Sachs",
+        "title": "Data Analyst & Quantitative Modeling Intern",
+        "key_topics": [
+          "ROS 2 CycloneDDS",
+          "Inverse Kinematics (IK)",
+          "OpenCV Hough Transforms",
+          "NPU INT8 Quantization",
+          "Sensor Fusion EKF"
+        ],
+        "interview_questions": [
+          {
+            "q": "How did you manage deterministic loop latency and inter-process communication in ROS 2 Jazzy?",
+            "a": "In CLUB MIRAI and the IEEE ICRM autonomous car project, I configured CycloneDDS with zero-copy intra-process transport and isolated sensor publishing threads to achieve deterministic 50 Hz control loops within an ARM Cortex-A CPU bottleneck."
+          },
+          {
+            "q": "Explain your Inverse Kinematics (IK) formulation for the companion robot.",
+            "a": "I developed a hybrid analytical and Damped Least Squares (DLS) Jacobian formulation for a 5-DOF arm to avoid singular configurations while executing real-time trajectory velocity profiling."
+          },
+          {
+            "q": "How do you optimize deep learning models for edge NPUs vs cloud GPUs?",
+            "a": "In Evolution Edge, I used ONNX Runtime with INT8 quantization for sub-28.4ms edge inference on AMD Ryzen AI NPUs, with symbolic confidence thresholds triggering escalation to cloud GPU clusters."
+          }
+        ],
+        "project_soundbites": [
+          {
+            "project": "Evolution Edge",
+            "pitch": "Engineered edge-to-cloud AI bridge deploying INT8 models to Ryzen AI NPUs with dynamic escalation to cloud clusters."
+          },
+          {
+            "project": "Industrial Diagnostics Framework",
+            "pitch": "PIML failure predictor achieving 85.2% recall with SHAP explainability, cutting fleet maintenance costs by 68% ($230k saved)."
+          },
+          {
+            "project": "Hemodynamic PINN",
+            "pitch": "Discovered non-Newtonian blood rheology from CFD data with <2% relative L2 error vs ANSYS Fluent."
+          },
+          {
+            "project": "GSM Smart Switch",
+            "pitch": "Cellular remote node with non-blocking AT parser and watchdog supervision ensuring >99% off-grid uptime."
+          },
+          {
+            "project": "CLUB MIRAI ROS 2 Stack",
+            "pitch": "50 Hz ROS 2 Jazzy kinematic control, dynamic face tracking CV, and Raspberry Pi 5 HIL environment."
+          }
+        ]
+      },
+      "recruiter_outreach": {
+        "linkedin_dm": "Hi [Recruiter Name], I recently applied for the Data Analyst & Quantitative Modeling Intern role at Goldman Sachs. As a Robotics & AI undergraduate at Amrita (9.05 CGPA) with hands-on experience in ROS 2 control systems, edge AI optimization, and embedded firmware, I'd love to connect and share how my projects align with Goldman Sachs's engineering goals. Portfolio: https://sarat-2007.github.io/ | Resume: https://sarat-2007.github.io/job-tracker-dashboard/resumes/resume_MASTER_COMPLETE_1PAGE.pdf \u2014 Best, Sarat Chandra",
+        "follow_up_email": "Subject: Following Up: Data Analyst & Quantitative Modeling Intern Application - Nallabati Venkata Durga Sai Sarat Chandra\n\nDear Hiring Team at Goldman Sachs,\n\nI hope you are having a productive week. I am following up on my recent application for the Data Analyst & Quantitative Modeling Intern position. With a strong foundation in edge robotics, physics-informed modeling, and embedded systems (9.05 CGPA at Amrita Vishwa Vidyapeetham), I am eager to bring immediate technical value to Goldman Sachs.\n\nYou can view my interactive project demonstrations and verified 1-page resume here: https://sarat-2007.github.io/job-tracker-dashboard/\n\nThank you for your time, and I look forward to hearing from you.\n\nWarm regards,\nN.V.D.S. Sarat Chandra\n+91 6305761091 | saratchandranallabati@gmail.com"
+      },
+      "salary_benchmark": {
+        "company": "Goldman Sachs",
+        "title": "Data Analyst & Quantitative Modeling Intern",
+        "tier": "High-Growth Tech Startup",
+        "intern_stipend": "\u20b940,000 - \u20b965,000 / month (Intern)",
+        "full_time_base": "\u20b915,00,000 - \u20b922,00,000 PA",
+        "equity_bonus": "\u20b92,00,000 - \u20b95,00,000 ESOPs",
+        "negotiation_leverage": "High (9.05 CGPA, IEEE Publication, Physics-Informed ML & ROS 2 Specialization)"
+      },
+      "cover_letter": {
+        "company": "Goldman Sachs",
+        "title": "Data Analyst & Quantitative Modeling Intern",
+        "date": "August 27, 2026",
+        "cover_letter_text": "N.V.D.S. Sarat Chandra\nKollam, Kerala, India \u2022 +91 6305761091 \u2022 saratchandranallabati@gmail.com\nPortfolio: https://sarat-2007.github.io/ \u2022 LinkedIn: linkedin.com/in/sarat-chandra-nallabati\n\nAugust 27, 2026\n\nHiring Team & Engineering Leadership\nGoldman Sachs\nBangalore, India / Global Remote\n\nSubject: Application for Data Analyst & Quantitative Modeling Intern\n\nDear Hiring Team at Goldman Sachs,\n\nI am writing to express my strong interest in the Data Analyst & Quantitative Modeling Intern role at Goldman Sachs. As a final-year undergraduate in Robotics & Artificial Intelligence at Amrita Vishwa Vidyapeetham (CGPA: 9.05 / 10.00) with published research in IEEE ICRM and hands-on systems engineering experience, I am excited by the opportunity to contribute to Goldman Sachs's cutting-edge engineering milestones.\n\nThroughout my academic and project career, I have focused on bridging theoretical machine learning with real-time physical systems. In the CLUB MIRAI robotics initiative, I developed a 50 Hz ROS 2 Jazzy control architecture with CycloneDDS zero-copy middleware and 5-DOF Inverse Kinematics. Additionally, in my Scientific ML work, I engineered Physics-Informed Neural Networks (PINNs) that discovered non-Newtonian blood rheology with <2% relative L2 error vs ANSYS Fluent CFD ground truth.\n\nMy background in bare-metal embedded firmware (DMA-driven UART, FreeRTOS, STM32), high-efficiency computer vision, and edge NPU acceleration aligns directly with the requirements for the Data Analyst & Quantitative Modeling Intern position. I thrive in high-ownership environments and look forward to discussing how my skills and authentic project experience can create immediate value for Goldman Sachs.\n\nThank you for your time and consideration. You can review my live application tracker and interactive project proofs at https://sarat-2007.github.io/job-tracker-dashboard/.\n\nSincerely,\n\nNallabati Venkata Durga Sai Sarat Chandra\nUndergraduate in Robotics & AI\nAmrita Vishwa Vidyapeetham"
+      },
+      "ats_heatmap": {
+        "score": 91.0,
+        "matched_keywords": [
+          "ROS 2 (Jazzy)",
+          "C++",
+          "CycloneDDS",
+          "Inverse Kinematics (IK)",
+          "OpenCV",
+          "Sensor Fusion",
+          "Linux",
+          "PyTorch"
+        ],
+        "missing_keywords": [
+          "CUDA Kernels (Basic)",
+          "Docker Containerization"
+        ],
+        "hard_skills_match": "96%",
+        "domain_alignment": "100%"
+      },
+      "submission_details": {
+        "candidate_name": "Nallabati Venkata Durga Sai Sarat Chandra",
+        "email": "saratchandranallabati@gmail.com",
+        "phone": "+91 6305761091",
+        "current_location": "Kollam, Kerala (Willing to relocate to Bangalore)",
+        "education": "B.Tech in Robotics & AI (Amrita Vishwa Vidyapeetham, CGPA: 9.05 / 10.00)",
+        "linkedin_url": "https://linkedin.com/in/sarat-chandra-nallabati",
+        "github_url": "https://github.com/sarat-2007",
+        "portfolio_url": "https://sarat-2007.github.io/",
+        "researchgate_url": "https://www.researchgate.net",
+        "cover_pitch": "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, Scientific Machine Learning (PINNs, reduced-order modeling), and ROS 2 control systems. Excited to contribute high-impact engineering at Goldman Sachs.",
+        "trust_audit": {
+          "status": "PASSED_VERIFIED",
+          "score": "100/100",
+          "fee_check": "Zero Application Fees (Legitimate Tech Employer)",
+          "domain_verified": true
+        },
+        "resume_audit": {
+          "typography": "Times New Roman (newtxtext)",
+          "page_budget": "Exact 1 Page (0 overflow)",
+          "word_count": "713-720 Words (100% Full Page Fill)",
+          "sections_checked": "8/8 Authentic Sections Verified"
+        }
+      }
+    },
     {
       "job_id": "custom_company_robotics___software_engineer_i",
       "company": "Company",
