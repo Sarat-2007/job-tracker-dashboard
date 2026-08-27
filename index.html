@@ -36,7 +36,7 @@
                 <div>
                     <h1 class="text-xl font-bold text-white flex items-center gap-2">
                         Cloud AI Job Hunter Ecosystem
-                        <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full font-medium">9:00 AM Cloud Active</span>
+                        <span class="text-xs bg-purple-500/20 text-purple-300 border border-purple-500/30 px-2.5 py-0.5 rounded-full font-bold animate-pulse"><i class="fa-solid fa-sparkles mr-1"></i> v3.5 Smart NLP Active</span>
                     </h1>
                     <p class="text-xs text-slate-400">Live Multi-Device Career Automation for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
                 </div>
@@ -725,7 +725,7 @@
         }
 
         
-        function parseUserIntent(rawMsg) {
+                function parseUserIntent(rawMsg) {
             let msg = rawMsg.trim();
             let mLower = msg.toLowerCase();
 
@@ -757,40 +757,53 @@
                 };
             }
 
-            // 3. Extract Company and Role Dynamically
+            // 3. Dynamic Company & Role Entity Extraction
             let company = "Target Tech Company";
-            let role = "Engineering Intern";
+            let role = "Robotics & AI Systems Engineer Intern";
             let pdf = "resume_MASTER_COMPLETE_1PAGE.pdf";
-            let ats = 94.0;
-            let url = "https://www.google.com/search?q=";
+            let ats = 95.0;
 
-            // Extract Company using 'at <Company>' or 'for <Company>' or 'in <Company>'
-            let compMatch = msg.match(/(?:at|for|in|to)\s+([a-zA-Z0-9\s&\-\.]+?)(?:\s+(?:for|as|in|with|role|position)|$)/i);
+            // Match 'at <Company>' or 'for <Company>' or 'to <Company>'
+            let compMatch = msg.match(/(?:at|to|for|with)\s+([a-zA-Z0-9\s&\-\.]+?)(?:\s+(?:for|as|in|with|role|position|intern)|$)/i);
             if (compMatch && compMatch[1]) {
                 let rawComp = compMatch[1].trim();
-                // Avoid capturing words like "me", "intern", "jobs"
                 if (!["me", "intern", "jobs", "job", "a", "the"].includes(rawComp.toLowerCase())) {
                     company = rawComp.replace(/\b\w/g, c => c.toUpperCase());
                 }
             }
 
-            // Fallback Known Company Dictionaries
-            const knownComps = {
-                "goldman sachs": "Goldman Sachs", "goldman": "Goldman Sachs", "morgan stanley": "Morgan Stanley", "jp morgan": "J.P. Morgan",
-                "nvidia": "NVIDIA", "google": "Google", "apple": "Apple", "microsoft": "Microsoft", "amazon": "Amazon", "meta": "Meta",
-                "texas instruments": "Texas Instruments", "ti": "Texas Instruments", "ather energy": "Ather Energy", "ather": "Ather Energy",
-                "swiggy": "Swiggy", "flipkart": "Flipkart", "postman": "Postman", "tesla": "Tesla Autopilot", "boston dynamics": "Boston Dynamics",
-                "qualcomm": "Qualcomm", "bosch": "Bosch", "samsung": "Samsung R&D", "greyorange": "GreyOrange", "cynlr": "CynLr"
-            };
+            // Word-boundary Regex Mapping for Known Tech & Finance Firms
+            const knownComps = [
+                [/\b(goldman sachs|goldman)\b/i, "Goldman Sachs"],
+                [/\b(boston dynamics)\b/i, "Boston Dynamics"],
+                [/\b(texas instruments|\bti\b)\b/i, "Texas Instruments"],
+                [/\b(nvidia)\b/i, "NVIDIA"],
+                [/\b(apple)\b/i, "Apple"],
+                [/\b(google|deepmind)\b/i, "Google"],
+                [/\b(microsoft)\b/i, "Microsoft"],
+                [/\b(amazon)\b/i, "Amazon"],
+                [/\b(meta)\b/i, "Meta"],
+                [/\b(ather energy|\bather\b)\b/i, "Ather Energy"],
+                [/\b(swiggy)\b/i, "Swiggy"],
+                [/\b(flipkart)\b/i, "Flipkart"],
+                [/\b(postman)\b/i, "Postman"],
+                [/\b(tesla)\b/i, "Tesla Autopilot"],
+                [/\b(qualcomm)\b/i, "Qualcomm"],
+                [/\b(bosch)\b/i, "Bosch"],
+                [/\b(samsung)\b/i, "Samsung R&D"],
+                [/\b(greyorange)\b/i, "GreyOrange"],
+                [/\b(cynlr)\b/i, "CynLr"],
+                [/\b(jp morgan|morgan stanley)\b/i, "J.P. Morgan"]
+            ];
 
-            for (let [k, v] of Object.entries(knownComps)) {
-                if (mLower.includes(k)) {
-                    company = v;
+            for (let [pattern, name] of knownComps) {
+                if (pattern.test(mLower)) {
+                    company = name;
                     break;
                 }
             }
 
-            // Extract Role Title
+            // Extract Exact Role & Select Matching 1-Page PDF Track
             if (mLower.includes("data") || mLower.includes("analyst") || mLower.includes("analytics") || mLower.includes("quant") || mLower.includes("sql")) {
                 role = mLower.includes("intern") ? "Data Analyst & Quantitative Modeling Intern" : "Data Science & Analytics Engineer";
                 pdf = "resume_Swiggy_1page.pdf";
@@ -807,21 +820,19 @@
                 role = mLower.includes("intern") ? "Software Development Engineer (SDE) Intern" : "Software Engineer";
                 pdf = "resume_Postman_1page.pdf";
                 ats = 93.0;
-            } else {
-                role = "Robotics & AI Systems Engineer Intern";
-                pdf = "resume_MASTER_COMPLETE_1PAGE.pdf";
-                ats = 95.0;
             }
 
-            // Generate clean live careers URL
+            // Generate clean live careers portal URL
             let cleanComp = company.toLowerCase().replace(/[^a-z0-9]/g, "");
-            url = `https://careers.${cleanComp}.com`;
+            let url = `https://careers.${cleanComp}.com`;
             if (company === "Goldman Sachs") url = "https://www.goldmansachs.com/careers/";
             else if (company === "NVIDIA") url = "https://www.nvidia.com/en-us/about-nvidia/careers/";
             else if (company === "Apple") url = "https://www.apple.com/careers/";
             else if (company === "Texas Instruments") url = "https://careers.ti.com/";
             else if (company === "Ather Energy") url = "https://www.atherenergy.com/careers";
             else if (company === "Swiggy") url = "https://careers.swiggy.com/";
+            else if (company === "Boston Dynamics") url = "https://bostondynamics.com/careers/";
+            else if (company === "J.P. Morgan") url = "https://careers.jpmorgan.com/";
 
             let reply = `🎉 **Tailored 1-Page Resume & Application Generated for ${company}!**\n\n` +
                         `• **Role:** ${role}\n` +
@@ -873,7 +884,7 @@
                 </div>
                 <div class="bg-slate-950 border border-slate-800 rounded-2xl rounded-tl-none p-3.5 max-w-xl text-xs text-slate-400 flex items-center gap-2 font-mono">
                     <i class="fa-solid fa-spinner fa-spin text-blue-400"></i>
-                    <span>Navigating to website, extracting JD keywords & compiling 1-page resume...</span>
+                    <span>Extracting company & role, tailoring keywords & compiling 1-page resume...</span>
                 </div>
             `;
             feed.appendChild(thinkBubble);
@@ -904,11 +915,11 @@
                     } else {
                         appendAgentResponse(intent.reply, intent.job);
                     }
-                }, 900);
+                }, 600);
             });
         }
 
-        function appendAgentMultiResponseunction appendAgentMultiResponse(text, jobs) {
+        function appendAgentMultiResponse(text, jobs) {
             const feed = document.getElementById("chat_feed");
             const formatted = text.replace(/\n/g, "<br>").replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
