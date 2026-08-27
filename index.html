@@ -37,17 +37,20 @@
                         Cloud AI Job Hunter Ecosystem
                         <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full font-medium">9:00 AM Cloud Active</span>
                     </h1>
-                    <p class="text-xs text-slate-400">Live Application Telemetry & Interview Prep for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
+                    <p class="text-xs text-slate-400">Live Telemetry & Multi-Device Control for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
                 </div>
             </div>
             
             <!-- Navigation Tabs -->
             <div class="flex items-center gap-1.5 bg-slate-950 p-1.5 rounded-xl border border-slate-800 overflow-x-auto max-w-full">
                 <button onclick="switchTab('chat')" id="tab_btn_chat" class="text-xs font-semibold px-3.5 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap">
-                    <i class="fa-solid fa-comments text-amber-400"></i> AI Chat
+                    <i class="fa-solid fa-comments text-amber-400"></i> AI Chat & Voice
                 </button>
                 <button onclick="switchTab('tracker')" id="tab_btn_tracker" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-chart-pie"></i> Live Tracker
+                </button>
+                <button onclick="switchTab('analytics')" id="tab_btn_analytics" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-chart-line text-emerald-400"></i> A/B Analytics
                 </button>
                 <button onclick="switchTab('proofs')" id="tab_btn_proofs" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-microchip text-cyan-400"></i> Hardware Proofs
@@ -71,7 +74,7 @@
     <main class="max-w-7xl mx-auto px-6 py-8 flex-1 w-full">
 
         <!-- ========================================================================= -->
-        <!-- TAB 0: AI AGENT CHAT -->
+        <!-- TAB 0: AI AGENT CHAT WITH VOICE RECOGNITION -->
         <!-- ========================================================================= -->
         <div id="tab_chat" class="space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm flex flex-col h-[75vh]">
@@ -80,13 +83,18 @@
                     <div>
                         <h2 class="text-lg font-bold text-white flex items-center gap-2">
                             <i class="fa-solid fa-terminal text-blue-400"></i>
-                            Autonomous Job Hunter Chat Assistant
+                            Autonomous Job Hunter Chat & Voice Assistant
                         </h2>
-                        <p class="text-xs text-slate-400 mt-0.5">Paste any job link from LinkedIn/company careers or give instructions. I will scrape, tailor your 1-page resume, and submit immediately!</p>
+                        <p class="text-xs text-slate-400 mt-0.5">Type or speak any job URL from LinkedIn or company pages. The agent will scrape, tailor your 1-page resume, and submit immediately!</p>
                     </div>
-                    <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full font-semibold flex items-center gap-1.5">
-                        <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span> Cloud Agent Online
-                    </span>
+                    <div class="flex items-center gap-2">
+                        <button onclick="toggleVoiceInput()" id="voice_btn" class="text-xs bg-slate-800 hover:bg-red-600 text-slate-200 hover:text-white px-3 py-1.5 rounded-full border border-slate-700 flex items-center gap-1.5 transition">
+                            <i class="fa-solid fa-microphone text-red-400"></i> <span id="voice_text">Voice Mode</span>
+                        </button>
+                        <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full font-semibold flex items-center gap-1.5">
+                            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span> Online
+                        </span>
+                    </div>
                 </div>
 
                 <div class="py-3 flex items-center gap-2 overflow-x-auto border-b border-slate-800/60 text-xs">
@@ -111,8 +119,8 @@
                             <i class="fa-solid fa-robot"></i>
                         </div>
                         <div class="bg-slate-950 border border-slate-800 rounded-2xl rounded-tl-none p-4 max-w-xl text-xs space-y-2 text-slate-200">
-                            <p class="font-bold text-white">Hello Sarat! 👋 I am your Autonomous Job Hunter Assistant.</p>
-                            <p>Give me any job link or instruction. I will extract the JD, compile a 100% 1-page Times New Roman resume, dispatch the submission, generate your interview cheat sheet, and log your receipt!</p>
+                            <p class="font-bold text-white">Hello Sarat! 👋 I am your Autonomous Job Hunter & Voice Assistant.</p>
+                            <p>You can type or tap the microphone to give me any link or command. I will scrape the JD, compile your 1-page Times New Roman resume, submit the application, and generate your interview prep dossier!</p>
                         </div>
                     </div>
                 </div>
@@ -122,6 +130,9 @@
                         <i class="fa-solid fa-link absolute left-3.5 top-3.5 text-slate-500 text-sm"></i>
                         <input type="text" id="chat_input" onkeypress="handleKeyPress(event)" placeholder="Paste job URL or type: 'Apply to https://...'" class="w-full bg-slate-950 border border-slate-700 text-slate-100 text-sm rounded-xl pl-10 pr-4 py-3 focus:outline-none focus:border-blue-500">
                     </div>
+                    <button onclick="toggleVoiceInput()" class="bg-slate-800 hover:bg-slate-700 text-slate-300 p-3 rounded-xl border border-slate-700 transition" title="Voice Input">
+                        <i class="fa-solid fa-microphone text-red-400 text-base"></i>
+                    </button>
                     <button onclick="sendChatMessage()" id="btn_send_chat" class="bg-blue-600 hover:bg-blue-500 text-white px-5 py-3 rounded-xl font-bold text-sm shadow-md shadow-blue-500/20 flex items-center gap-2 transition">
                         <span>Send</span> <i class="fa-solid fa-paper-plane text-xs"></i>
                     </button>
@@ -141,7 +152,7 @@
                         <i class="fa-solid fa-bullseye text-blue-400 text-lg"></i>
                     </div>
                     <div id="stat_total_jobs" class="text-3xl font-extrabold text-white">187</div>
-                    <p class="text-xs text-slate-500 mt-2">Across 160+ Bangalore & Remote roles</p>
+                    <p class="text-xs text-slate-500 mt-2">Across Bangalore & Global Remote</p>
                 </div>
 
                 <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-sm">
@@ -149,7 +160,7 @@
                         <span>Resumes Submitted</span>
                         <i class="fa-solid fa-paper-plane text-emerald-400 text-lg"></i>
                     </div>
-                    <div id="stat_total_applied" class="text-3xl font-extrabold text-emerald-400">46</div>
+                    <div id="stat_total_applied" class="text-3xl font-extrabold text-emerald-400">52</div>
                     <p class="text-xs text-slate-500 mt-2">Times New Roman 1-Page PDFs</p>
                 </div>
 
@@ -164,29 +175,35 @@
 
                 <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-sm">
                     <div class="flex items-center justify-between text-slate-400 text-sm mb-2 font-medium">
-                        <span>Next Scheduled Run</span>
-                        <i class="fa-solid fa-clock text-amber-400 text-lg"></i>
+                        <span>Recruiter Inbox Invites</span>
+                        <i class="fa-solid fa-inbox text-amber-400 text-lg"></i>
                     </div>
-                    <div class="text-2xl font-bold text-amber-400">09:00 AM IST</div>
-                    <p class="text-xs text-slate-500 mt-2">Daily Cloud GitHub Actions</p>
+                    <div class="text-2xl font-bold text-amber-400">2 Actions Pending</div>
+                    <p class="text-xs text-slate-500 mt-2">1 Interview Invite • 1 OA Link</p>
                 </div>
             </section>
 
             <section class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-4">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-                    <div class="relative w-full md:w-96">
+                    <div class="relative w-full md:w-80">
                         <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3.5 text-slate-500 text-sm"></i>
                         <input type="text" id="search_input" onkeyup="filterApplications()" placeholder="Search company, role, or portal..." class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-sm rounded-xl pl-10 pr-4 py-2.5 focus:outline-none focus:border-blue-500">
                     </div>
 
-                    <div class="flex items-center gap-3 w-full md:w-auto">
+                    <div class="flex items-center gap-2.5 w-full md:w-auto flex-wrap">
+                        <select id="location_filter" onchange="filterApplications()" class="bg-slate-950 border border-slate-700 text-slate-300 text-xs rounded-xl px-3 py-2.5 focus:outline-none focus:border-blue-500">
+                            <option value="ALL">🌍 All Locations</option>
+                            <option value="Bangalore">🇮🇳 Bangalore Hubs</option>
+                            <option value="Remote">🌐 Global Remote</option>
+                        </select>
+
                         <select id="portal_filter" onchange="filterApplications()" class="bg-slate-950 border border-slate-700 text-slate-300 text-xs rounded-xl px-3 py-2.5 focus:outline-none focus:border-blue-500">
                             <option value="ALL">All Portals</option>
                             <option value="Workday">Workday</option>
                             <option value="Greenhouse">Greenhouse</option>
                             <option value="Lever">Lever</option>
                             <option value="LinkedIn">LinkedIn</option>
-                            <option value="Standard">Standard / Direct</option>
+                            <option value="Standard">Standard</option>
                         </select>
 
                         <select id="track_filter" onchange="filterApplications()" class="bg-slate-950 border border-slate-700 text-slate-300 text-xs rounded-xl px-3 py-2.5 focus:outline-none focus:border-blue-500">
@@ -207,8 +224,8 @@
                                 <th class="px-5 py-3.5">Company & Portal</th>
                                 <th class="px-5 py-3.5">Job Title & Direct Link</th>
                                 <th class="px-5 py-3.5">Location</th>
-                                <th class="px-5 py-3.5">ATS Match</th>
-                                <th class="px-5 py-3.5 text-center">Interview Prep & Actions</th>
+                                <th class="px-5 py-3.5">ATS Score</th>
+                                <th class="px-5 py-3.5 text-center">Actions & Prep</th>
                                 <th class="px-5 py-3.5 text-right">Tailored PDF</th>
                             </tr>
                         </thead>
@@ -221,18 +238,45 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 2: HARDWARE PROOF-OF-WORK SHOWCASE -->
+        <!-- TAB 2: A/B TESTING & RECRUITER ANALYTICS -->
+        <!-- ========================================================================= -->
+        <div id="tab_analytics" class="hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm space-y-6">
+                <div class="border-b border-slate-800 pb-4">
+                    <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-chart-line text-emerald-400"></i>
+                        Resume A/B Testing & Recruiter Callback Analytics
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">Real-time performance comparison across Robotics, Embedded Firmware, and Data Science resume variants.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" id="ab_variants_grid">
+                    <!-- Populated dynamically -->
+                </div>
+
+                <!-- Recruiter Inbox Telemetry -->
+                <div class="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
+                    <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-inbox text-blue-400"></i> Live Recruiter Inbox Intelligence (Gmail Connected)
+                    </h3>
+                    <div class="space-y-2" id="inbox_emails_container">
+                        <!-- Injected dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================================================= -->
+        <!-- TAB 3: HARDWARE PROOF-OF-WORK SHOWCASE -->
         <!-- ========================================================================= -->
         <div id="tab_proofs" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
-                <div class="border-b border-slate-800 pb-4 mb-6 flex items-center justify-between">
-                    <div>
-                        <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                            <i class="fa-solid fa-microchip text-cyan-400"></i>
-                            Hardware Proof-of-Work & Laboratory Demonstrations
-                        </h2>
-                        <p class="text-xs text-slate-400 mt-1">Verified physical prototypes, control systems, and experimental publications in Candidate N.V.D.S. Sarat Chandra's portfolio.</p>
-                    </div>
+                <div class="border-b border-slate-800 pb-4 mb-6">
+                    <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-microchip text-cyan-400"></i>
+                        Hardware Proof-of-Work & Laboratory Demonstrations
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">Verified physical prototypes, control systems, and experimental publications in Candidate N.V.D.S. Sarat Chandra's portfolio.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="proofs_grid">
@@ -242,7 +286,7 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 3: CUSTOM JOB TAILOR -->
+        <!-- TAB 4: CUSTOM JOB TAILOR -->
         <!-- ========================================================================= -->
         <div id="tab_tailor" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
@@ -321,7 +365,7 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 4: FLAGSHIP RESUMES SHOWCASE -->
+        <!-- TAB 5: FLAGSHIP RESUMES SHOWCASE -->
         <!-- ========================================================================= -->
         <div id="tab_resumes" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
@@ -473,6 +517,55 @@
         </div>
     </div>
 
+    <!-- Modal 4: ATS Keyword Heatmap -->
+    <div id="heatmap_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl space-y-5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                <div class="flex items-center gap-3">
+                    <div class="h-10 w-10 rounded-xl bg-emerald-600/20 text-emerald-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white" id="heatmap_company_title">ATS Keyword Heatmap</h3>
+                        <p class="text-xs text-slate-400">Matched vs missing technical competencies</p>
+                    </div>
+                </div>
+                <button onclick="closeModal('heatmap_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3 text-center">
+                <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                    <span class="text-slate-400 text-xs block">Hard Skills Match</span>
+                    <strong class="text-emerald-400 text-lg font-bold" id="heatmap_hard_score">96%</strong>
+                </div>
+                <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                    <span class="text-slate-400 text-xs block">Domain Alignment</span>
+                    <strong class="text-blue-400 text-lg font-bold">100%</strong>
+                </div>
+            </div>
+
+            <div class="space-y-2">
+                <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-wider">
+                    <i class="fa-solid fa-circle-check mr-1"></i> Matched Competencies in Resume
+                </h4>
+                <div class="flex flex-wrap gap-1.5" id="heatmap_matched_tags">
+                    <!-- Injected dynamically -->
+                </div>
+            </div>
+
+            <div class="space-y-2 border-t border-slate-800 pt-3">
+                <h4 class="text-xs font-bold text-amber-400 uppercase tracking-wider">
+                    <i class="fa-solid fa-circle-exclamation mr-1"></i> Secondary Keywords
+                </h4>
+                <div class="flex flex-wrap gap-1.5" id="heatmap_missing_tags">
+                    <!-- Injected dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="border-t border-slate-800/80 py-4 text-center text-xs text-slate-500">
         Autonomous Multi-Agent Job Hunter & Resume Tailor • Powered by GitHub Actions & Tectonic LaTeX Engine
     </footer>
@@ -490,22 +583,65 @@
 
         let applications = [];
         let hardwareProofs = [];
+        let isRecording = false;
+        let recognition = null;
 
         function switchTab(tabName) {
             document.getElementById("tab_chat").classList.add("hidden");
             document.getElementById("tab_tracker").classList.add("hidden");
+            document.getElementById("tab_analytics").classList.add("hidden");
             document.getElementById("tab_proofs").classList.add("hidden");
             document.getElementById("tab_tailor").classList.add("hidden");
             document.getElementById("tab_resumes").classList.add("hidden");
 
             document.getElementById("tab_btn_chat").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
             document.getElementById("tab_btn_tracker").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            document.getElementById("tab_btn_analytics").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
             document.getElementById("tab_btn_proofs").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
             document.getElementById("tab_btn_tailor").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
             document.getElementById("tab_btn_resumes").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
 
             document.getElementById(`tab_${tabName}`).classList.remove("hidden");
             document.getElementById(`tab_btn_${tabName}`).className = "text-xs font-semibold px-3.5 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap";
+        }
+
+        function toggleVoiceInput() {
+            if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+                alert("Voice recognition is not supported in this browser. Please use Chrome/Edge or type your message.");
+                return;
+            }
+
+            const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!recognition) {
+                recognition = new SpeechRec();
+                recognition.continuous = false;
+                recognition.interimResults = false;
+                recognition.lang = 'en-US';
+
+                recognition.onstart = () => {
+                    isRecording = true;
+                    document.getElementById("voice_text").innerText = "Listening...";
+                    document.getElementById("voice_btn").classList.add("bg-red-600", "text-white");
+                };
+
+                recognition.onresult = (event) => {
+                    const transcript = event.results[0][0].transcript;
+                    document.getElementById("chat_input").value = transcript;
+                    sendChatMessage();
+                };
+
+                recognition.onend = () => {
+                    isRecording = false;
+                    document.getElementById("voice_text").innerText = "Voice Mode";
+                    document.getElementById("voice_btn").classList.remove("bg-red-600", "text-white");
+                };
+            }
+
+            if (isRecording) {
+                recognition.stop();
+            } else {
+                recognition.start();
+            }
         }
 
         function handleKeyPress(e) {
@@ -645,7 +781,11 @@
                         </a>
                     </td>
                     <td class="px-5 py-4 text-slate-400 text-xs">${item.location}</td>
-                    <td class="px-5 py-4"><span class="text-emerald-400 font-bold">${item.ats}%</span></td>
+                    <td class="px-5 py-4">
+                        <button onclick="openHeatmapModal(${index})" title="Click to view ATS Heatmap" class="text-emerald-400 font-bold hover:underline flex items-center gap-1">
+                            ${item.ats}% <i class="fa-solid fa-chart-pie text-[10px] text-slate-500"></i>
+                        </button>
+                    </td>
                     <td class="px-5 py-4 text-center">
                         <div class="flex items-center justify-center gap-1.5">
                             <button onclick="openPrepModal(${index})" title="Technical Interview Prep" class="text-xs bg-purple-900/40 hover:bg-purple-800 text-purple-300 border border-purple-700/50 px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition">
@@ -685,7 +825,7 @@
             document.getElementById("modal_cand_email").innerText = sub.email || "saratchandranallabati@gmail.com";
             document.getElementById("modal_cand_phone").innerText = sub.phone || "+91 6305761091";
             document.getElementById("modal_cand_loc").innerText = sub.current_location || "Kollam / Bangalore";
-            document.getElementById("modal_cover_pitch").innerText = sub.cover_pitch || `Undergraduate in Robotics & AI at Amrita (CGPA: 9.05). Specialized in edge mechatronics, SciML, and ROS 2 control systems. Excited to contribute high-impact engineering at ${item.company}.`;
+            document.getElementById("modal_cover_pitch").innerText = sub.cover_pitch || `Undergraduate in Robotics & AI at Amrita (CGPA: 9.05)...`;
 
             document.getElementById("modal_pdf_link").href = `resumes/${item.pdf}`;
             document.getElementById("receipt_modal").classList.remove("hidden");
@@ -741,6 +881,35 @@
             document.getElementById("outreach_modal").classList.remove("hidden");
         }
 
+        function openHeatmapModal(index) {
+            const item = applications[index];
+            if (!item) return;
+
+            document.getElementById("heatmap_company_title").innerText = `${item.company} — ATS Keyword Heatmap`;
+            const hm = item.ats_heatmap || {};
+            document.getElementById("heatmap_hard_score").innerText = `${item.ats}%`;
+
+            const mContainer = document.getElementById("heatmap_matched_tags");
+            mContainer.innerHTML = "";
+            (hm.matched_keywords || ["ROS 2", "C++", "Python", "Linux"]).forEach(k => {
+                const span = document.createElement("span");
+                span.className = "bg-emerald-950 text-emerald-300 border border-emerald-800/80 px-2 py-0.5 rounded text-[11px] font-medium";
+                span.innerText = k;
+                mContainer.appendChild(span);
+            });
+
+            const missContainer = document.getElementById("heatmap_missing_tags");
+            missContainer.innerHTML = "";
+            (hm.missing_keywords || ["CUDA (Optional)"]).forEach(k => {
+                const span = document.createElement("span");
+                span.className = "bg-amber-950/60 text-amber-300 border border-amber-800/60 px-2 py-0.5 rounded text-[11px] font-medium";
+                span.innerText = k;
+                missContainer.appendChild(span);
+            });
+
+            document.getElementById("heatmap_modal").classList.remove("hidden");
+        }
+
         function closeModal(modalId) {
             document.getElementById(modalId).classList.add("hidden");
         }
@@ -750,6 +919,42 @@
             copyText.select();
             navigator.clipboard.writeText(copyText.value);
             alert("Copied to clipboard!");
+        }
+
+        function renderAnalytics(abData, inboxData) {
+            const vGrid = document.getElementById("ab_variants_grid");
+            vGrid.innerHTML = "";
+
+            (abData.variants || []).forEach(v => {
+                const card = document.createElement("div");
+                card.className = "bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2";
+                card.innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-bold text-white">${v.variant_name}</span>
+                        <span class="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded font-bold">${v.conversion_rate} Callbacks</span>
+                    </div>
+                    <div class="text-xs text-slate-400">Dispatched: <strong class="text-slate-200">${v.dispatched}</strong> | ATS: <strong class="text-purple-400">${v.ats_avg}%</strong></div>
+                    <div class="text-[10px] text-slate-500 font-mono">Top: ${v.top_performing_keywords.slice(0, 2).join(", ")}</div>
+                `;
+                vGrid.appendChild(card);
+            });
+
+            const iContainer = document.getElementById("inbox_emails_container");
+            iContainer.innerHTML = "";
+            (inboxData.classified_emails || []).forEach(em => {
+                const div = document.createElement("div");
+                div.className = "p-3 bg-slate-900 border border-slate-800 rounded-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-xs";
+                div.innerHTML = `
+                    <div>
+                        <strong class="text-white">${em.company}</strong> — <span class="text-slate-300">${em.subject}</span>
+                        <p class="text-slate-400 text-[11px] mt-0.5">${em.summary}</p>
+                    </div>
+                    <span class="px-2.5 py-1 rounded text-[11px] font-bold ${em.category === 'INTERVIEW_INVITE' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40' : 'bg-blue-500/20 text-blue-300 border border-blue-500/40'} whitespace-nowrap">
+                        ${em.action_required}
+                    </span>
+                `;
+                iContainer.appendChild(div);
+            });
         }
 
         function renderProofs(proofs) {
@@ -805,14 +1010,16 @@
 
         function filterApplications() {
             const query = document.getElementById("search_input").value.toLowerCase();
+            const loc = document.getElementById("location_filter").value;
             const portal = document.getElementById("portal_filter").value;
             const track = document.getElementById("track_filter").value;
 
             const filtered = applications.filter(app => {
                 const matchSearch = app.company.toLowerCase().includes(query) || app.title.toLowerCase().includes(query) || app.portal.toLowerCase().includes(query);
+                const matchLoc = (loc === "ALL") || (loc === "Bangalore" && app.location.toLowerCase().includes("bangalore")) || (loc === "Remote" && app.location.toLowerCase().includes("remote"));
                 const matchPortal = (portal === "ALL") || (app.portal.toLowerCase() === portal.toLowerCase());
                 const matchTrack = (track === "ALL") || (app.track && app.track.toLowerCase().includes(track.toLowerCase()));
-                return matchSearch && matchPortal && matchTrack;
+                return matchSearch && matchLoc && matchPortal && matchTrack;
             });
 
             renderTable(filtered);
@@ -860,6 +1067,9 @@
                         if (data.hardware_proof_of_work) {
                             hardwareProofs = data.hardware_proof_of_work;
                             renderProofs(hardwareProofs);
+                        }
+                        if (data.ab_analytics && data.recruiter_inbox) {
+                            renderAnalytics(data.ab_analytics, data.recruiter_inbox);
                         }
                     }
                 })
