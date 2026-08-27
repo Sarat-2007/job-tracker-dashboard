@@ -3,7 +3,7 @@
     "total_jobs": 192,
     "total_applied": 59,
     "avg_ats": 86.1,
-    "updated_at": "2026-08-27 17:21:27 IST"
+    "updated_at": "2026-08-27 17:44:43 IST"
   },
   "recruiter_inbox": {
     "total_scanned": 15,
@@ -16,7 +16,7 @@
         "subject": "Interview Invitation: Robotics & Edge AI Intern - NVIDIA",
         "category": "INTERVIEW_INVITE",
         "company": "NVIDIA",
-        "date": "2026-08-27 17:21",
+        "date": "2026-08-27 17:44",
         "summary": "Technical screening with the Autonomous Systems team. Schedule your slot.",
         "action_required": "Schedule Slot via Link",
         "priority": "HIGH"
@@ -26,7 +26,7 @@
         "subject": "Online Assessment Link: Data Analyst Intern - Swiggy",
         "category": "ONLINE_ASSESSMENT",
         "company": "Swiggy",
-        "date": "2026-08-27 17:21",
+        "date": "2026-08-27 17:44",
         "summary": "HackerRank technical assessment for SQL & Python modeling (90 mins).",
         "action_required": "Complete OA within 48h",
         "priority": "HIGH"
@@ -36,7 +36,7 @@
         "subject": "Application Received: Embedded Software Intern - Texas Instruments",
         "category": "APPLICATION_ACKNOWLEDGED",
         "company": "Texas Instruments",
-        "date": "2026-08-27 17:21",
+        "date": "2026-08-27 17:44",
         "summary": "Your application and 1-page resume have been routed to the hiring manager.",
         "action_required": "None",
         "priority": "NORMAL"
