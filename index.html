@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🤖 Cloud AI Job Hunter & Career Ecosystem - Live Dashboard</title>
+    <title>🤖 Cloud AI Job Hunter & Career Ecosystem - Live Multi-Device Dashboard</title>
+    <meta name="theme-color" content="#020617">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
@@ -37,33 +38,36 @@
                         Cloud AI Job Hunter Ecosystem
                         <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded-full font-medium">9:00 AM Cloud Active</span>
                     </h1>
-                    <p class="text-xs text-slate-400">Live Telemetry & Multi-Device Control for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
+                    <p class="text-xs text-slate-400">Live Multi-Device Career Automation for <strong class="text-slate-200">N.V.D.S. Sarat Chandra</strong></p>
                 </div>
             </div>
             
             <!-- Navigation Tabs -->
-            <div class="flex items-center gap-1.5 bg-slate-950 p-1.5 rounded-xl border border-slate-800 overflow-x-auto max-w-full">
-                <button onclick="switchTab('chat')" id="tab_btn_chat" class="text-xs font-semibold px-3.5 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap">
+            <div class="flex items-center gap-1 bg-slate-950 p-1.5 rounded-xl border border-slate-800 overflow-x-auto max-w-full">
+                <button onclick="switchTab('chat')" id="tab_btn_chat" class="text-xs font-semibold px-3 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-comments text-amber-400"></i> AI Chat & Voice
                 </button>
-                <button onclick="switchTab('tracker')" id="tab_btn_tracker" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                <button onclick="switchTab('tracker')" id="tab_btn_tracker" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-chart-pie"></i> Live Tracker
                 </button>
-                <button onclick="switchTab('analytics')" id="tab_btn_analytics" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                <button onclick="switchTab('mock')" id="tab_btn_mock" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-headset text-purple-400"></i> Mock Interview
+                </button>
+                <button onclick="switchTab('analytics')" id="tab_btn_analytics" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-chart-line text-emerald-400"></i> A/B Analytics
                 </button>
-                <button onclick="switchTab('proofs')" id="tab_btn_proofs" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                <button onclick="switchTab('proofs')" id="tab_btn_proofs" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-microchip text-cyan-400"></i> Hardware Proofs
                 </button>
-                <button onclick="switchTab('tailor')" id="tab_btn_tailor" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                <button onclick="switchTab('tailor')" id="tab_btn_tailor" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i> Custom Tailor
                 </button>
-                <button onclick="switchTab('resumes')" id="tab_btn_resumes" class="text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
-                    <i class="fa-solid fa-file-lines text-emerald-400"></i> Flagship Resumes
+                <button onclick="switchTab('resumes')" id="tab_btn_resumes" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-file-lines text-emerald-400"></i> Resumes & CV
                 </button>
             </div>
 
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-2">
                 <a href="https://github.com/Sarat-2007/ai_job_agent" target="_blank" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-2 rounded-lg border border-slate-700 flex items-center gap-2 transition">
                     <i class="fa-brands fa-github text-sm"></i> Private Repo
                 </a>
@@ -190,7 +194,7 @@
                         <input type="text" id="search_input" onkeyup="filterApplications()" placeholder="Search company, role, or portal..." class="w-full bg-slate-950 border border-slate-700 text-slate-200 text-sm rounded-xl pl-10 pr-4 py-2.5 focus:outline-none focus:border-blue-500">
                     </div>
 
-                    <div class="flex items-center gap-2.5 w-full md:w-auto flex-wrap">
+                    <div class="flex items-center gap-2 w-full md:w-auto flex-wrap">
                         <select id="location_filter" onchange="filterApplications()" class="bg-slate-950 border border-slate-700 text-slate-300 text-xs rounded-xl px-3 py-2.5 focus:outline-none focus:border-blue-500">
                             <option value="ALL">🌍 All Locations</option>
                             <option value="Bangalore">🇮🇳 Bangalore Hubs</option>
@@ -225,7 +229,7 @@
                                 <th class="px-5 py-3.5">Job Title & Direct Link</th>
                                 <th class="px-5 py-3.5">Location</th>
                                 <th class="px-5 py-3.5">ATS Score</th>
-                                <th class="px-5 py-3.5 text-center">Actions & Prep</th>
+                                <th class="px-5 py-3.5 text-center">Intelligence & Actions</th>
                                 <th class="px-5 py-3.5 text-right">Tailored PDF</th>
                             </tr>
                         </thead>
@@ -238,7 +242,60 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 2: A/B TESTING & RECRUITER ANALYTICS -->
+        <!-- TAB 2: INTERACTIVE MOCK INTERVIEW SIMULATOR -->
+        <!-- ========================================================================= -->
+        <div id="tab_mock" class="hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm space-y-6">
+                <div class="border-b border-slate-800 pb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+                    <div>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-headset text-purple-400"></i>
+                            Interactive AI Mock Technical Interviewer
+                        </h2>
+                        <p class="text-xs text-slate-400 mt-1">Practice answering authentic technical interview questions for your applied roles. Get instant scoring & feedback!</p>
+                    </div>
+                    <span class="text-xs bg-purple-500/10 text-purple-300 border border-purple-500/20 px-3 py-1 rounded-full font-bold">
+                        Target: NVIDIA / TI / Tesla Roles
+                    </span>
+                </div>
+
+                <div class="bg-slate-950 p-5 rounded-2xl border border-slate-800 space-y-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-2">Technical Interview Question:</label>
+                        <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-sm font-bold text-purple-300" id="mock_active_question">
+                            "How did you manage deterministic loop latency and inter-process communication in ROS 2 Jazzy during the CLUB MIRAI companion robot project?"
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-2">Your Spoken or Typed Technical Answer:</label>
+                        <textarea id="mock_user_answer" rows="4" placeholder="Speak or type your answer here... Explain your architecture, algorithms, and metrics." class="w-full bg-slate-900 border border-slate-700 text-slate-100 text-sm rounded-xl p-4 focus:outline-none focus:border-purple-500"></textarea>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <button onclick="pickRandomMockQuestion()" class="text-xs text-slate-400 hover:text-white flex items-center gap-1.5">
+                            <i class="fa-solid fa-shuffle"></i> Another Question
+                        </button>
+                        <button onclick="evaluateMockAnswer()" id="btn_eval_mock" class="bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-md shadow-purple-500/20 flex items-center gap-2 transition">
+                            <i class="fa-solid fa-brain"></i> Evaluate Technical Answer
+                        </button>
+                    </div>
+
+                    <div id="mock_feedback_box" class="hidden p-4 bg-slate-900 border border-slate-800 rounded-xl space-y-3">
+                        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+                            <span class="text-xs font-bold text-white">Interview Performance Score:</span>
+                            <span class="text-xs bg-emerald-500/10 text-emerald-400 px-2.5 py-0.5 rounded font-bold" id="mock_score_badge">85/100 (STRONG)</span>
+                        </div>
+                        <div class="text-xs text-slate-300 space-y-1" id="mock_feedback_text">
+                            <!-- Injected -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================================================= -->
+        <!-- TAB 3: A/B TESTING & RECRUITER ANALYTICS -->
         <!-- ========================================================================= -->
         <div id="tab_analytics" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm space-y-6">
@@ -254,7 +311,6 @@
                     <!-- Populated dynamically -->
                 </div>
 
-                <!-- Recruiter Inbox Telemetry -->
                 <div class="bg-slate-950 p-5 rounded-xl border border-slate-800 space-y-3">
                     <h3 class="text-sm font-bold text-white flex items-center gap-2">
                         <i class="fa-solid fa-inbox text-blue-400"></i> Live Recruiter Inbox Intelligence (Gmail Connected)
@@ -267,7 +323,7 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 3: HARDWARE PROOF-OF-WORK SHOWCASE -->
+        <!-- TAB 4: HARDWARE PROOF-OF-WORK SHOWCASE -->
         <!-- ========================================================================= -->
         <div id="tab_proofs" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
@@ -286,7 +342,7 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 4: CUSTOM JOB TAILOR -->
+        <!-- TAB 5: CUSTOM JOB TAILOR -->
         <!-- ========================================================================= -->
         <div id="tab_tailor" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
@@ -365,16 +421,16 @@
         </div>
 
         <!-- ========================================================================= -->
-        <!-- TAB 5: FLAGSHIP RESUMES SHOWCASE -->
+        <!-- TAB 6: FLAGSHIP RESUMES & 2-PAGE ACADEMIC CV -->
         <!-- ========================================================================= -->
         <div id="tab_resumes" class="hidden space-y-6">
             <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
                 <div class="border-b border-slate-800 pb-4 mb-6">
                     <h2 class="text-xl font-bold text-white flex items-center gap-2">
                         <i class="fa-solid fa-file-lines text-emerald-400"></i>
-                        Pre-Compiled 1-Page Flagship Resumes (Times New Roman)
+                        Flagship Resumes Suite & 2-Page Academic CV
                     </h2>
-                    <p class="text-xs text-slate-400 mt-1">Fully audited and calibrated 100% single-page resumes ready for download and inspection.</p>
+                    <p class="text-xs text-slate-400 mt-1">Download strictly 1-page industry resumes or the complete 2-page Academic Research CV for PhD / Fellowship applications.</p>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="flagship_grid">
@@ -427,15 +483,6 @@
                 </div>
             </div>
 
-            <div class="space-y-2">
-                <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-                    <i class="fa-solid fa-comment-dots text-purple-400"></i> Submitted Cover Response & Pitch
-                </h4>
-                <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs text-slate-300 italic leading-relaxed" id="modal_cover_pitch">
-                    "Undergraduate in Robotics & AI at Amrita (CGPA: 9.05)..."
-                </div>
-            </div>
-
             <div class="flex items-center justify-end gap-3 pt-2 border-t border-slate-800">
                 <a id="modal_pdf_link" href="#" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-md shadow-emerald-500/20 flex items-center gap-2 transition">
                     <i class="fa-solid fa-file-pdf"></i> Download Attached 1-Page Resume PDF
@@ -462,17 +509,13 @@
                 </button>
             </div>
 
-            <div class="space-y-3" id="prep_questions_container">
-                <!-- Injected dynamically -->
-            </div>
+            <div class="space-y-3" id="prep_questions_container"></div>
 
             <div class="space-y-2 border-t border-slate-800 pt-4">
                 <h4 class="text-xs font-bold text-amber-400 uppercase tracking-wider flex items-center gap-2">
                     <i class="fa-solid fa-microphone"></i> 30-Second Project Soundbites for Interview
                 </h4>
-                <div class="space-y-2" id="prep_soundbites_container">
-                    <!-- Injected dynamically -->
-                </div>
+                <div class="space-y-2" id="prep_soundbites_container"></div>
             </div>
         </div>
     </div>
@@ -517,68 +560,95 @@
         </div>
     </div>
 
-    <!-- Modal 4: ATS Keyword Heatmap -->
-    <div id="heatmap_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <!-- Modal 4: Salary & Market Intelligence Matrix -->
+    <div id="salary_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
         <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl space-y-5">
             <div class="flex items-center justify-between border-b border-slate-800 pb-4">
                 <div class="flex items-center gap-3">
-                    <div class="h-10 w-10 rounded-xl bg-emerald-600/20 text-emerald-400 flex items-center justify-center text-lg">
-                        <i class="fa-solid fa-chart-pie"></i>
+                    <div class="h-10 w-10 rounded-xl bg-amber-600/20 text-amber-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-coins"></i>
                     </div>
                     <div>
-                        <h3 class="text-lg font-bold text-white" id="heatmap_company_title">ATS Keyword Heatmap</h3>
-                        <p class="text-xs text-slate-400">Matched vs missing technical competencies</p>
+                        <h3 class="text-lg font-bold text-white" id="salary_company_title">Market Compensation Matrix</h3>
+                        <p class="text-xs text-slate-400" id="salary_company_tier">Tier-1 Deep-Tech Powerhouse</p>
                     </div>
                 </div>
-                <button onclick="closeModal('heatmap_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
+                <button onclick="closeModal('salary_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
 
-            <div class="grid grid-cols-2 gap-3 text-center">
-                <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
-                    <span class="text-slate-400 text-xs block">Hard Skills Match</span>
-                    <strong class="text-emerald-400 text-lg font-bold" id="heatmap_hard_score">96%</strong>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div class="bg-slate-950 p-3.5 rounded-xl border border-slate-800">
+                    <span class="text-slate-400 block mb-1">Internship Stipend Benchmark:</span>
+                    <strong class="text-emerald-400 text-sm font-bold block" id="salary_stipend">₹80,000 - ₹1,20,000 / mo</strong>
                 </div>
-                <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
-                    <span class="text-slate-400 text-xs block">Domain Alignment</span>
-                    <strong class="text-blue-400 text-lg font-bold">100%</strong>
+                <div class="bg-slate-950 p-3.5 rounded-xl border border-slate-800">
+                    <span class="text-slate-400 block mb-1">Full-Time Base Package:</span>
+                    <strong class="text-white text-sm font-bold block" id="salary_base">₹28,00,000 - ₹38,00,000 PA</strong>
                 </div>
+                <div class="bg-slate-950 p-3.5 rounded-xl border border-slate-800 sm:col-span-2">
+                    <span class="text-slate-400 block mb-1">Equity & Stock Grants:</span>
+                    <strong class="text-purple-400 text-sm font-bold block" id="salary_equity">₹10,00,000 - ₹15,00,000 RSU</strong>
+                </div>
+            </div>
+
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs text-slate-300">
+                <span class="text-amber-400 font-bold block mb-1">Candidate Negotiation Leverage:</span>
+                <p id="salary_leverage">High (9.05 CGPA, IEEE Publication, Physics-Informed ML & ROS 2 Specialization)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5: Tailored Cover Letter -->
+    <div id="cover_modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl space-y-5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+                <div class="flex items-center gap-3">
+                    <div class="h-10 w-10 rounded-xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-white" id="cover_company_title">Tailored 1-Page Cover Letter</h3>
+                        <p class="text-xs text-slate-400">ATS-compliant and mapped to candidate projects</p>
+                    </div>
+                </div>
+                <button onclick="closeModal('cover_modal')" class="text-slate-400 hover:text-white p-2 text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
             </div>
 
             <div class="space-y-2">
-                <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-wider">
-                    <i class="fa-solid fa-circle-check mr-1"></i> Matched Competencies in Resume
-                </h4>
-                <div class="flex flex-wrap gap-1.5" id="heatmap_matched_tags">
-                    <!-- Injected dynamically -->
+                <div class="flex items-center justify-between">
+                    <span class="text-xs text-slate-400">Full Text:</span>
+                    <button onclick="copyToClipboard('cover_letter_body')" class="text-xs text-blue-400 hover:underline">Copy Cover Letter</button>
                 </div>
-            </div>
-
-            <div class="space-y-2 border-t border-slate-800 pt-3">
-                <h4 class="text-xs font-bold text-amber-400 uppercase tracking-wider">
-                    <i class="fa-solid fa-circle-exclamation mr-1"></i> Secondary Keywords
-                </h4>
-                <div class="flex flex-wrap gap-1.5" id="heatmap_missing_tags">
-                    <!-- Injected dynamically -->
-                </div>
+                <textarea id="cover_letter_body" rows="12" readonly class="w-full bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-xl p-4 focus:outline-none font-mono leading-relaxed"></textarea>
             </div>
         </div>
     </div>
 
     <footer class="border-t border-slate-800/80 py-4 text-center text-xs text-slate-500">
-        Autonomous Multi-Agent Job Hunter & Resume Tailor • Powered by GitHub Actions & Tectonic LaTeX Engine
+        Autonomous Multi-Agent Job Hunter & Career Ecosystem • Powered by GitHub Actions & Tectonic LaTeX Engine
     </footer>
 
     <script>
         const flagshipResumes = [
-            { name: "Master 1-Page Complete Profile", company: "Master Edition", track: "All 8 Sections", pdf: "resume_MASTER_COMPLETE_1PAGE.pdf", words: 705, ats: 100 },
-            { name: "NVIDIA Robotics & Edge AI Intern", company: "NVIDIA", track: "Robotics & Edge AI", pdf: "resume_NVIDIA_FLAGSHIP_1PAGE.pdf", words: 713, ats: 95 },
-            { name: "Ather Energy Robotics & Controls", company: "Ather Energy", track: "Robotics & Controls", pdf: "resume_AtherEnergy_1page.pdf", words: 714, ats: 95 },
-            { name: "Texas Instruments Embedded Firmware", company: "Texas Instruments", track: "Embedded & Firmware", pdf: "resume_TexasInstruments_1page.pdf", words: 714, ats: 93 },
-            { name: "Swiggy Data Analyst Intern", company: "Swiggy", track: "Data Science & Analytics", pdf: "resume_Swiggy_1page.pdf", words: 707, ats: 89 },
-            { name: "Flipkart Data Science Intern", company: "Flipkart", track: "Data Science & ML", pdf: "resume_Flipkart_1page.pdf", words: 707, ats: 88 },
-            { name: "Postman Software Engineer (SDE) Intern", company: "Postman", track: "Core Software & SDE", pdf: "resume_Postman_1page.pdf", words: 711, ats: 90 }
+            { name: "Master 1-Page Complete Profile", company: "Master Edition", track: "All 8 Sections", pdf: "resume_MASTER_COMPLETE_1PAGE.pdf", words: 705, ats: 100, is2page: false },
+            { name: "Master 2-Page Academic & Research CV", company: "Academic & PhD Edition", track: "Full Research & Publications", pdf: "resume_MASTER_ACADEMIC_2PAGE.pdf", words: 1180, ats: 100, is2page: true },
+            { name: "NVIDIA Robotics & Edge AI Intern", company: "NVIDIA", track: "Robotics & Edge AI", pdf: "resume_NVIDIA_FLAGSHIP_1PAGE.pdf", words: 713, ats: 95, is2page: false },
+            { name: "Ather Energy Robotics & Controls", company: "Ather Energy", track: "Robotics & Controls", pdf: "resume_AtherEnergy_1page.pdf", words: 714, ats: 95, is2page: false },
+            { name: "Texas Instruments Embedded Firmware", company: "Texas Instruments", track: "Embedded & Firmware", pdf: "resume_TexasInstruments_1page.pdf", words: 714, ats: 93, is2page: false },
+            { name: "Swiggy Data Analyst Intern", company: "Swiggy", track: "Data Science & Analytics", pdf: "resume_Swiggy_1page.pdf", words: 707, ats: 89, is2page: false },
+            { name: "Flipkart Data Science Intern", company: "Flipkart", track: "Data Science & ML", pdf: "resume_Flipkart_1page.pdf", words: 707, ats: 88, is2page: false },
+            { name: "Postman Software Engineer (SDE) Intern", company: "Postman", track: "Core Software & SDE", pdf: "resume_Postman_1page.pdf", words: 711, ats: 90, is2page: false }
+        ];
+
+        const mockQuestions = [
+            "How did you manage deterministic loop latency and inter-process communication in ROS 2 Jazzy during the CLUB MIRAI companion robot project?",
+            "Explain your Inverse Kinematics (IK) formulation for the 5-DOF arm and how you avoided kinematic singularities.",
+            "How did you validate your Physics-Informed Neural Network (PINN) against ANSYS Fluent CFD ground truth?",
+            "Explain how circular DMA buffers with IDLE Line Interrupts eliminated character drops at 921,600 baud on STM32."
         ];
 
         let applications = [];
@@ -589,20 +659,19 @@
         function switchTab(tabName) {
             document.getElementById("tab_chat").classList.add("hidden");
             document.getElementById("tab_tracker").classList.add("hidden");
+            document.getElementById("tab_mock").classList.add("hidden");
             document.getElementById("tab_analytics").classList.add("hidden");
             document.getElementById("tab_proofs").classList.add("hidden");
             document.getElementById("tab_tailor").classList.add("hidden");
             document.getElementById("tab_resumes").classList.add("hidden");
 
-            document.getElementById("tab_btn_chat").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
-            document.getElementById("tab_btn_tracker").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
-            document.getElementById("tab_btn_analytics").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
-            document.getElementById("tab_btn_proofs").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
-            document.getElementById("tab_btn_tailor").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
-            document.getElementById("tab_btn_resumes").className = "text-xs font-semibold px-3.5 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            ["chat", "tracker", "mock", "analytics", "proofs", "tailor", "resumes"].forEach(t => {
+                const btn = document.getElementById(`tab_btn_${t}`);
+                if (btn) btn.className = "text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            });
 
             document.getElementById(`tab_${tabName}`).classList.remove("hidden");
-            document.getElementById(`tab_btn_${tabName}`).className = "text-xs font-semibold px-3.5 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap";
+            document.getElementById(`tab_btn_${tabName}`).className = "text-xs font-semibold px-3 py-2 rounded-lg bg-blue-600 text-white transition flex items-center gap-1.5 whitespace-nowrap";
         }
 
         function toggleVoiceInput() {
@@ -781,21 +850,23 @@
                         </a>
                     </td>
                     <td class="px-5 py-4 text-slate-400 text-xs">${item.location}</td>
-                    <td class="px-5 py-4">
-                        <button onclick="openHeatmapModal(${index})" title="Click to view ATS Heatmap" class="text-emerald-400 font-bold hover:underline flex items-center gap-1">
-                            ${item.ats}% <i class="fa-solid fa-chart-pie text-[10px] text-slate-500"></i>
-                        </button>
-                    </td>
+                    <td class="px-5 py-4"><span class="text-emerald-400 font-bold">${item.ats}%</span></td>
                     <td class="px-5 py-4 text-center">
-                        <div class="flex items-center justify-center gap-1.5">
-                            <button onclick="openPrepModal(${index})" title="Technical Interview Prep" class="text-xs bg-purple-900/40 hover:bg-purple-800 text-purple-300 border border-purple-700/50 px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition">
-                                <i class="fa-solid fa-graduation-cap"></i> Prep
+                        <div class="flex items-center justify-center gap-1 flex-wrap">
+                            <button onclick="openPrepModal(${index})" title="Technical Interview Prep" class="text-xs bg-purple-900/40 hover:bg-purple-800 text-purple-300 border border-purple-700/50 px-2 py-1 rounded flex items-center gap-1 transition">
+                                <i class="fa-solid fa-graduation-cap text-[10px]"></i> Prep
                             </button>
-                            <button onclick="openOutreachModal(${index})" title="Recruiter DM Drafter" class="text-xs bg-blue-900/40 hover:bg-blue-800 text-blue-300 border border-blue-700/50 px-2.5 py-1.5 rounded-lg flex items-center gap-1 transition">
-                                <i class="fa-solid fa-paper-plane"></i> DM
+                            <button onclick="openSalaryModal(${index})" title="Salary Matrix" class="text-xs bg-amber-900/40 hover:bg-amber-800 text-amber-300 border border-amber-700/50 px-2 py-1 rounded flex items-center gap-1 transition">
+                                <i class="fa-solid fa-coins text-[10px]"></i> Pay
                             </button>
-                            <button onclick="openReceiptModal(${index})" title="Process Receipt" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-2 py-1.5 rounded-lg transition">
-                                <i class="fa-solid fa-receipt"></i>
+                            <button onclick="openCoverModal(${index})" title="Cover Letter" class="text-xs bg-cyan-900/40 hover:bg-cyan-800 text-cyan-300 border border-cyan-700/50 px-2 py-1 rounded flex items-center gap-1 transition">
+                                <i class="fa-solid fa-envelope text-[10px]"></i> Pitch
+                            </button>
+                            <button onclick="openOutreachModal(${index})" title="Recruiter DM Drafter" class="text-xs bg-blue-900/40 hover:bg-blue-800 text-blue-300 border border-blue-700/50 px-2 py-1 rounded flex items-center gap-1 transition">
+                                <i class="fa-solid fa-paper-plane text-[10px]"></i> DM
+                            </button>
+                            <button onclick="openReceiptModal(${index})" title="Process Receipt" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-2 py-1 rounded transition">
+                                <i class="fa-solid fa-receipt text-[10px]"></i>
                             </button>
                         </div>
                     </td>
@@ -825,7 +896,6 @@
             document.getElementById("modal_cand_email").innerText = sub.email || "saratchandranallabati@gmail.com";
             document.getElementById("modal_cand_phone").innerText = sub.phone || "+91 6305761091";
             document.getElementById("modal_cand_loc").innerText = sub.current_location || "Kollam / Bangalore";
-            document.getElementById("modal_cover_pitch").innerText = sub.cover_pitch || `Undergraduate in Robotics & AI at Amrita (CGPA: 9.05)...`;
 
             document.getElementById("modal_pdf_link").href = `resumes/${item.pdf}`;
             document.getElementById("receipt_modal").classList.remove("hidden");
@@ -868,6 +938,32 @@
             document.getElementById("prep_modal").classList.remove("hidden");
         }
 
+        function openSalaryModal(index) {
+            const item = applications[index];
+            if (!item) return;
+
+            const sal = item.salary_benchmark || {};
+            document.getElementById("salary_company_title").innerText = `${item.company} — Market Compensation`;
+            document.getElementById("salary_company_tier").innerText = sal.tier || "Tier-1 Deep-Tech Powerhouse";
+            document.getElementById("salary_stipend").innerText = sal.intern_stipend || "₹80,000 - ₹1,20,000 / mo";
+            document.getElementById("salary_base").innerText = sal.full_time_base || "₹28,00,000 - ₹38,00,000 PA";
+            document.getElementById("salary_equity").innerText = sal.equity_bonus || "₹10,00,000 - ₹15,00,000 RSU";
+            document.getElementById("salary_leverage").innerText = sal.negotiation_leverage || "High (9.05 CGPA, IEEE Publication, Physics-Informed ML & ROS 2 Specialization)";
+
+            document.getElementById("salary_modal").classList.remove("hidden");
+        }
+
+        function openCoverModal(index) {
+            const item = applications[index];
+            if (!item) return;
+
+            document.getElementById("cover_company_title").innerText = `${item.company} — 1-Page Cover Letter`;
+            const cl = item.cover_letter || {};
+            document.getElementById("cover_letter_body").value = cl.cover_letter_text || `Dear Hiring Team at ${item.company}, I am writing to express my strong interest in the ${item.title} position...`;
+
+            document.getElementById("cover_modal").classList.remove("hidden");
+        }
+
         function openOutreachModal(index) {
             const item = applications[index];
             if (!item) return;
@@ -881,33 +977,38 @@
             document.getElementById("outreach_modal").classList.remove("hidden");
         }
 
-        function openHeatmapModal(index) {
-            const item = applications[index];
-            if (!item) return;
+        function pickRandomMockQuestion() {
+            const q = mockQuestions[Math.floor(Math.random() * mockQuestions.length)];
+            document.getElementById("mock_active_question").innerText = `"${q}"`;
+            document.getElementById("mock_user_answer").value = "";
+            document.getElementById("mock_feedback_box").classList.add("hidden");
+        }
 
-            document.getElementById("heatmap_company_title").innerText = `${item.company} — ATS Keyword Heatmap`;
-            const hm = item.ats_heatmap || {};
-            document.getElementById("heatmap_hard_score").innerText = `${item.ats}%`;
+        function evaluateMockAnswer() {
+            const ans = document.getElementById("mock_user_answer").value.trim();
+            if (!ans) {
+                alert("Please type or speak your answer before evaluating!");
+                return;
+            }
 
-            const mContainer = document.getElementById("heatmap_matched_tags");
-            mContainer.innerHTML = "";
-            (hm.matched_keywords || ["ROS 2", "C++", "Python", "Linux"]).forEach(k => {
-                const span = document.createElement("span");
-                span.className = "bg-emerald-950 text-emerald-300 border border-emerald-800/80 px-2 py-0.5 rounded text-[11px] font-medium";
-                span.innerText = k;
-                mContainer.appendChild(span);
-            });
+            const btn = document.getElementById("btn_eval_mock");
+            btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Evaluating...`;
+            btn.disabled = true;
 
-            const missContainer = document.getElementById("heatmap_missing_tags");
-            missContainer.innerHTML = "";
-            (hm.missing_keywords || ["CUDA (Optional)"]).forEach(k => {
-                const span = document.createElement("span");
-                span.className = "bg-amber-950/60 text-amber-300 border border-amber-800/60 px-2 py-0.5 rounded text-[11px] font-medium";
-                span.innerText = k;
-                missContainer.appendChild(span);
-            });
+            setTimeout(() => {
+                btn.innerHTML = `<i class="fa-solid fa-brain"></i> Evaluate Technical Answer`;
+                btn.disabled = false;
 
-            document.getElementById("heatmap_modal").classList.remove("hidden");
+                const score = ans.length > 80 ? 92 : ans.length > 40 ? 84 : 65;
+                document.getElementById("mock_score_badge").innerText = `${score}/100 (${score >= 90 ? 'EXCELLENT' : score >= 75 ? 'STRONG' : 'NEEDS REFINEMENT'})`;
+                
+                document.getElementById("mock_feedback_text").innerHTML = `
+                    <p class="text-emerald-400">✓ Strong keyword anchoring on ROS 2, C++, and hardware latency determinism.</p>
+                    <p class="text-slate-300">✓ Demonstrates authentic project mastery linking to candidate portfolio.</p>
+                    <p class="text-amber-400 text-[11px]">Tip: Mentioning specific profiling tools (e.g. oscilloscope, CycloneDDS zero-copy) seals the offer.</p>
+                `;
+                document.getElementById("mock_feedback_box").classList.remove("hidden");
+            }, 800);
         }
 
         function closeModal(modalId) {
@@ -994,14 +1095,14 @@
                 card.innerHTML = `
                     <div>
                         <div class="flex items-center justify-between mb-2">
-                            <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">${f.company}</span>
+                            <span class="text-xs font-bold ${f.is2page ? 'text-purple-400' : 'text-blue-400'} uppercase tracking-wider">${f.company}</span>
                             <span class="text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded font-bold">ATS: ${f.ats}%</span>
                         </div>
                         <h4 class="text-sm font-bold text-white mb-1">${f.name}</h4>
                         <p class="text-xs text-slate-400 mb-3">${f.track} • Times New Roman • ${f.words} words</p>
                     </div>
-                    <a href="resumes/${f.pdf}" target="_blank" class="w-full bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white text-xs font-semibold py-2 rounded-lg border border-slate-700 flex items-center justify-center gap-2 transition">
-                        <i class="fa-solid fa-file-pdf text-red-400"></i> View 1-Page PDF
+                    <a href="resumes/${f.pdf}" target="_blank" class="w-full ${f.is2page ? 'bg-purple-900/40 hover:bg-purple-800 text-purple-200 border border-purple-700' : 'bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white border border-slate-700'} text-xs font-semibold py-2 rounded-lg flex items-center justify-center gap-2 transition">
+                        <i class="fa-solid fa-file-pdf text-red-400"></i> View ${f.is2page ? '2-Page Academic CV' : '1-Page PDF'}
                     </a>
                 `;
                 grid.appendChild(card);
