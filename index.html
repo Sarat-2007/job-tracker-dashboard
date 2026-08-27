@@ -305,7 +305,7 @@
                     <td class="px-5 py-4"><span class="text-emerald-400 font-bold">${item.ats}%</span></td>
                     <td class="px-5 py-4"><span class="px-2 py-0.5 rounded text-xs font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20"><i class="fa-solid fa-check mr-1"></i> ${item.status}</span></td>
                     <td class="px-5 py-4 text-right">
-                        <a href="https://github.com/Sarat-2007/ai_job_agent/blob/main/data/tailored_resumes/${item.pdf}" target="_blank" class="inline-flex items-center gap-1.5 text-xs bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white px-3 py-1.5 rounded-lg border border-slate-700 transition">
+                        <a href="resumes/${item.pdf}" target="_blank" class="inline-flex items-center gap-1.5 text-xs bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white px-3 py-1.5 rounded-lg border border-slate-700 transition">
                             <i class="fa-solid fa-file-pdf text-red-400"></i> View PDF
                         </a>
                     </td>
@@ -330,7 +330,7 @@
                         <h4 class="text-sm font-bold text-white mb-1">${f.name}</h4>
                         <p class="text-xs text-slate-400 mb-3">${f.track} • Times New Roman • ${f.words} words</p>
                     </div>
-                    <a href="https://github.com/Sarat-2007/ai_job_agent/blob/main/data/tailored_resumes/${f.pdf}" target="_blank" class="w-full bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white text-xs font-semibold py-2 rounded-lg border border-slate-700 flex items-center justify-center gap-2 transition">
+                    <a href="resumes/${f.pdf}" target="_blank" class="w-full bg-slate-800 hover:bg-blue-600 text-slate-200 hover:text-white text-xs font-semibold py-2 rounded-lg border border-slate-700 flex items-center justify-center gap-2 transition">
                         <i class="fa-solid fa-file-pdf text-red-400"></i> View 1-Page PDF
                     </a>
                 `;
@@ -375,7 +375,7 @@
                 document.getElementById("res_ats_badge").innerText = `ATS: 94%`;
                 document.getElementById("res_pages").innerText = `1 Page (Exact)`;
                 document.getElementById("res_words").innerText = `718 Words`;
-                document.getElementById("res_download_btn").href = `https://github.com/Sarat-2007/ai_job_agent/blob/main/data/tailored_resumes/resume_MASTER_COMPLETE_1PAGE.pdf`;
+                document.getElementById("res_download_btn").href = `resumes/resume_MASTER_COMPLETE_1PAGE.pdf`;
                 document.getElementById("tailor_result_box").classList.remove("hidden");
             }, 1200);
         }
