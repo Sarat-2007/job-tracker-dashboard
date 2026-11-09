@@ -59,6 +59,12 @@
                 <button onclick="switchTab('proofs')" id="tab_btn_proofs" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-microchip text-cyan-400"></i> Hardware Proofs
                 </button>
+                <button onclick="switchTab('autopilot')" id="tab_btn_autopilot" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-solid fa-paper-plane text-pink-400"></i> 1-Click Auto-Pilot
+                </button>
+                <button onclick="switchTab('linkedin_posts')" id="tab_btn_linkedin_posts" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
+                    <i class="fa-brands fa-linkedin text-cyan-400"></i> LinkedIn Post Hunter
+                </button>
                 <button onclick="switchTab('tailor')" id="tab_btn_tailor" class="text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap">
                     <i class="fa-solid fa-wand-magic-sparkles text-purple-400"></i> Custom Tailor
                 </button>
@@ -420,6 +426,87 @@
             </div>
         </div>
 
+        
+        <!-- ========================================================================= -->
+        <!-- TAB: 1-CLICK ASSISTED AUTO-PILOT -->
+        <!-- ========================================================================= -->
+        <div id="tab_autopilot" class="hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-5 mb-6">
+                    <div>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fa-solid fa-paper-plane text-pink-400"></i>
+                            1-Click Assisted Auto-Pilot (Guaranteed Real Submission)
+                        </h2>
+                        <p class="text-xs text-slate-400 mt-1">Launches visible browser on screen, auto-fills all fields in 2 seconds, attaches your 1-page resume, and awaits your 1-click submit.</p>
+                    </div>
+                    <button onclick="launchAutoPilot('')" class="bg-pink-600 hover:bg-pink-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-lg shadow-pink-600/30 flex items-center gap-2 transition">
+                        <i class="fa-solid fa-play"></i> Apply Next in Queue
+                    </button>
+                </div>
+
+                <div class="mb-6 bg-slate-950 p-4 rounded-xl border border-slate-800 flex gap-3">
+                    <input id="custom_pilot_url" type="text" placeholder="Paste any direct Greenhouse, Lever, or Career portal link to auto-fill immediately..." class="flex-1 bg-slate-900 border border-slate-700 text-slate-200 text-xs px-4 py-2.5 rounded-xl focus:outline-none focus:border-pink-500">
+                    <button onclick="launchCustomUrl()" class="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition flex items-center gap-2">
+                        <i class="fa-solid fa-bolt"></i> Auto-Fill URL
+                    </button>
+                </div>
+
+                <h3 class="text-sm font-bold text-white mb-3 flex items-center gap-2">
+                    <i class="fa-solid fa-list-check text-emerald-400"></i> Verified Bangalore / Remote Opportunities Queue
+                </h3>
+                <div class="overflow-x-auto rounded-xl border border-slate-800">
+                    <table class="w-full text-left text-xs">
+                        <thead class="bg-slate-950 text-slate-400 border-b border-slate-800">
+                            <tr>
+                                <th class="p-3">Company</th>
+                                <th class="p-3">Role</th>
+                                <th class="p-3">Track</th>
+                                <th class="p-3">Location</th>
+                                <th class="p-3 text-right">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="autopilot_queue_body" class="divide-y divide-slate-800/60 bg-slate-900/60">
+                            <tr><td colspan="5" class="p-4 text-center text-slate-500">Loading verified queue...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================================================= -->
+        <!-- TAB: LINKEDIN POST HIRING HUNTER -->
+        <!-- ========================================================================= -->
+        <div id="tab_linkedin_posts" class="hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-sm">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-5 mb-6">
+                    <div>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                            <i class="fa-brands fa-linkedin text-cyan-400"></i>
+                            LinkedIn Post Hiring Hunter
+                        </h2>
+                        <p class="text-xs text-slate-400 mt-1">Scrolls live founder & engineering lead posts on LinkedIn, extracts hidden application links, and auto-fills them.</p>
+                    </div>
+                    <button onclick="searchLinkedInPosts()" id="btn_search_li" class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-lg shadow-cyan-600/30 flex items-center gap-2 transition">
+                        <i class="fa-solid fa-magnifying-glass"></i> Scan Live LinkedIn Posts
+                    </button>
+                </div>
+
+                <div class="mb-6 bg-slate-950 p-4 rounded-xl border border-slate-800 flex gap-3">
+                    <input id="li_search_query" type="text" value='("hiring" OR "looking for") ("robotics" OR "embedded" OR "AI") ("intern" OR "fresher") Bangalore' class="flex-1 bg-slate-900 border border-slate-700 text-slate-200 text-xs px-4 py-2.5 rounded-xl focus:outline-none focus:border-cyan-500">
+                    <button onclick="searchLinkedInPosts()" class="bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition flex items-center gap-2">
+                        <i class="fa-solid fa-filter"></i> Search Feed
+                    </button>
+                </div>
+
+                <div id="li_results_container" class="space-y-4">
+                    <div class="p-8 text-center text-slate-500 text-xs bg-slate-950/40 rounded-xl border border-slate-800/80">
+                        Click "Scan Live LinkedIn Posts" to launch the real-time post scanner and extract direct application links.
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- ========================================================================= -->
         <!-- TAB 6: FLAGSHIP RESUMES & 2-PAGE ACADEMIC CV -->
         <!-- ========================================================================= -->
@@ -657,16 +744,114 @@
         let isRecording = false;
         let recognition = null;
 
-        function switchTab(tabName) {
-            document.getElementById("tab_chat").classList.add("hidden");
-            document.getElementById("tab_tracker").classList.add("hidden");
-            document.getElementById("tab_mock").classList.add("hidden");
-            document.getElementById("tab_analytics").classList.add("hidden");
-            document.getElementById("tab_proofs").classList.add("hidden");
-            document.getElementById("tab_tailor").classList.add("hidden");
-            document.getElementById("tab_resumes").classList.add("hidden");
+        
+        async function loadQueue() {
+            try {
+                const res = await fetch('/api/queue');
+                const data = await res.json();
+                const tbody = document.getElementById('autopilot_queue_body');
+                if (!tbody) return;
+                tbody.innerHTML = data.queue.map(j => `
+                    <tr class="hover:bg-slate-800/40 transition">
+                        <td class="p-3 font-bold text-white">${j.company}</td>
+                        <td class="p-3 text-slate-300">${j.role}</td>
+                        <td class="p-3"><span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-2 py-0.5 rounded text-[11px]">${j.track}</span></td>
+                        <td class="p-3 text-slate-400">${j.location}</td>
+                        <td class="p-3 text-right">
+                            ${j.applied ? 
+                                '<span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2.5 py-1 rounded-lg font-bold text-[11px]"><i class="fa-solid fa-check mr-1"></i> Submitted</span>' :
+                                `<button onclick="launchAutoPilot('${j.url}')" class="bg-pink-600 hover:bg-pink-500 text-white font-semibold text-[11px] px-3 py-1.5 rounded-lg shadow-sm transition flex items-center gap-1.5 ml-auto">
+                                    <i class="fa-solid fa-paper-plane"></i> Auto-Fill Now
+                                </button>`
+                            }
+                        </td>
+                    </tr>
+                `).join('');
+            } catch(e) {
+                console.error(e);
+            }
+        }
 
-            ["chat", "tracker", "mock", "analytics", "proofs", "tailor", "resumes"].forEach(t => {
+        async function launchAutoPilot(url) {
+            alert('🚀 Launching visible browser pilot! The browser will open on your screen and auto-fill all fields in 2 seconds.');
+            try {
+                const res = await fetch('/api/pilot/apply', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({url: url || ''})
+                });
+                const d = await res.json();
+                console.log(d);
+                setTimeout(loadQueue, 5000);
+            } catch(e) {
+                alert('Pilot error: ' + e);
+            }
+        }
+
+        function launchCustomUrl() {
+            const val = document.getElementById('custom_pilot_url').value.trim();
+            if(!val) return alert('Please enter or paste a valid job application URL.');
+            launchAutoPilot(val);
+        }
+
+        async function searchLinkedInPosts() {
+            const query = document.getElementById('li_search_query').value.trim();
+            const btn = document.getElementById('btn_search_li');
+            const container = document.getElementById('li_results_container');
+            
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Scanning Feed...';
+            btn.disabled = true;
+            container.innerHTML = '<div class="p-8 text-center text-slate-400 text-xs"><i class="fa-solid fa-spinner fa-spin mr-2"></i> Scanning LinkedIn post feeds & extracting links in background...</div>';
+
+            try {
+                const res = await fetch('/api/linkedin/search', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({query: query})
+                });
+                const d = await res.json();
+                btn.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Scan Live LinkedIn Posts';
+                btn.disabled = false;
+
+                if (!d.posts || d.posts.length === 0) {
+                    container.innerHTML = '<div class="p-6 text-center text-slate-400 text-xs">No direct external links found in latest posts. Try refining the query.</div>';
+                    return;
+                }
+
+                container.innerHTML = d.posts.map(p => `
+                    <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <h4 class="text-sm font-bold text-white">${p.company}</h4>
+                                <span class="text-xs text-cyan-400 font-semibold">${p.role}</span>
+                            </div>
+                            <button onclick="launchAutoPilot('${p.url}')" class="bg-pink-600 hover:bg-pink-500 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition flex items-center gap-1.5">
+                                <i class="fa-solid fa-bolt"></i> Auto-Fill This Link
+                            </button>
+                        </div>
+                        <p class="text-xs text-slate-300 leading-relaxed">${p.post_snippet}...</p>
+                        <div class="text-[11px] text-slate-400 flex items-center gap-2">
+                            <i class="fa-solid fa-link text-slate-500"></i> <a href="${p.url}" target="_blank" class="text-blue-400 hover:underline truncate max-w-lg">${p.url}</a>
+                        </div>
+                    </div>
+                `).join('');
+            } catch(e) {
+                btn.innerHTML = '<i class="fa-solid fa-magnifying-glass"></i> Scan Live LinkedIn Posts';
+                btn.disabled = false;
+                container.innerHTML = '<div class="p-6 text-center text-red-400 text-xs">Scan error: ' + e + '</div>';
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            if (typeof loadQueue === 'function') loadQueue();
+        });
+
+        function switchTab(tabName) {
+// Hide all tabs via forEach
+
+            ["chat", "tracker", "mock", "analytics", "proofs", "tailor", "resumes", "autopilot", "linkedin_posts"].forEach(t => {
+                const el = document.getElementById(`tab_${t}`);
+                if (el) el.classList.add("hidden");
                 const btn = document.getElementById(`tab_btn_${t}`);
                 if (btn) btn.className = "text-xs font-semibold px-3 py-2 rounded-lg text-slate-400 hover:text-white transition flex items-center gap-1.5 whitespace-nowrap";
             });
